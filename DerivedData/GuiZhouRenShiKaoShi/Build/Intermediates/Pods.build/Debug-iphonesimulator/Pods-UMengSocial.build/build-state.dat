@@ -1,0 +1,96 @@
+TPods-UMengSocial
+v5
+r1
+cCheck dependencies
+cProcessPCH /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/PrecompiledHeaders/Pods-UMengSocial-prefix-dpyskatrnltopudvtqvycekzozpf/Pods-UMengSocial-prefix.pch.pth Pods-UMengSocial-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-UMengSocial.build/Objects-normal/i386/Pods-UMengSocial-dummy.o /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Pods-UMengSocial-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Products/Debug-iphonesimulator/libPods-UMengSocial.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000511245E7000000000062AD10
+t1360152039
+s6466832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000051BAD05A0000000000000110
+t1371197530
+s272
+
+N/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-UMengSocial.build/Objects-normal/i386/Pods-UMengSocial-dummy.o
+t1375858129
+s3316
+
+N/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-UMengSocial.build/Objects-normal/i386/Pods-UMengSocial.LinkFileList
+c000000005201EDCE00000000000000C2
+t1375858126
+s194
+
+N/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/PrecompiledHeaders/Pods-UMengSocial-prefix-dpyskatrnltopudvtqvycekzozpf/Pods-UMengSocial-prefix.pch.pth
+t1375858128
+s4668992
+
+N/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Products/Debug-iphonesimulator/libPods-UMengSocial.a
+t1375858129
+s3608
+
+N/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Pods-UMengSocial-dummy.m
+c000000005201CE860000000000000088
+t1375850118
+s136
+
+N/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Pods-UMengSocial-prefix.pch
+c000000005201CE86000000000000004D
+t1375850118
+s77
+
+N/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Pods-environment.h
+c000000005201CE860000000000000423
+t1375850118
+s1059
+
+CBuild AST from /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Pods-UMengSocial-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese690ecc825b2b741^749506c925b2b741^---0#1#0#--18"Check dependencies36"CFA07C08-CCBE-4A11-A77A-D4ECFD3C0FDC-
+
+CCompileC /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-UMengSocial.build/Objects-normal/i386/Pods-UMengSocial-dummy.o /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Pods-UMengSocial-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s397550929.129851
+e397550929.290450
+r1
+xCompileC
+x/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-UMengSocial.build/Objects-normal/i386/Pods-UMengSocial-dummy.o
+x/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Pods-UMengSocial-dummy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Pods-UMengSocial-dummy.mc66c215125b2b741^c3834a5125b2b741^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Pods-UMengSocial-dummy.m0000000000000000^4424"CompileC /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-UMengSocial.build/Objects-normal/i386/Pods-UMengSocial-dummy.o Pods-UMengSocial-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=4.3 -iquote /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-UMengSocial.build/Pods-UMengSocial-generated-files.hmap -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-UMengSocial.build/Pods-UMengSocial-own-target-headers.hmap -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-UMengSocial.build/Pods-UMengSocial-all-target-headers.hmap -iquote /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-UMengSocial.build/Pods-UMengSocial-project-headers.hmap -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Products/Debug-iphonesimulator/include -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/BuildHeaders -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/BuildHeaders/UMengSocial -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Headers -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Headers/ODRefreshControl -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Headers/SIAlertView -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Headers/UMengAnalytics -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Headers/UMengSocial -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-UMengSocial.build/DerivedSources/i386 -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-UMengSocial.build/DerivedSources -F/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Products/Debug-iphonesimulator -include /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/PrecompiledHeaders/Pods-UMengSocial-prefix-dpyskatrnltopudvtqvycekzozpf/Pods-UMengSocial-prefix.pch -MMD -MT dependencies -MF /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-UMengSocial.build/Objects-normal/i386/Pods-UMengSocial-dummy.d --serialize-diagnostics /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-UMengSocial.build/Objects-normal/i386/Pods-UMengSocial-dummy.dia -c /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Pods-UMengSocial-dummy.m -o /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-UMengSocial.build/Objects-normal/i386/Pods-UMengSocial-dummy.o36"3FB64A7F-7CB5-4E17-A5EB-9C7A8C5C40D6-
+
+CLibtool /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Products/Debug-iphonesimulator/libPods-UMengSocial.a normal i386
+s397550929.332881
+e397550929.435854
+r1
+xLibtool
+x/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Products/Debug-iphonesimulator/libPods-UMengSocial.a
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection151"Libtool /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Products/Debug-iphonesimulator/libPods-UMengSocial.a normal i3866953555125b2b741^7c9e6f5125b2b741^---0#0#0#--1775"Libtool /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Products/Debug-iphonesimulator/libPods-UMengSocial.a normal i386    cd /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Products/Debug-iphonesimulator -LUmengSocial/UMSocial_Sdk_All_2.1.3/UMSocial_Sdk_2.1.3 -LUmengSocial/UMSocial_Sdk_All_2.1.3/UMSocial_Sdk_2.1.3/frameworks -LUmengSocial/UMSocial_Sdk_All_2.1.3/UMSocial_Sdk_2.1.3/Header -LUmengSocial/UMSocial_Sdk_All_2.1.3/UMSocial_Sdk_2.1.3/SocialSDKXib -LUmengSocial/UMSocial_Sdk_All_2.1.3/UMSocial_Sdk_2.1.3/UMSocialSDKResources.bundle -LUmengSocial/UMSocial_Sdk_All_2.1.3/UMSocial_Sdk_2.1.3/frameworks/Wechat -LUmengSocial/UMSocial_Sdk_All_2.1.3/UMSocial_Sdk_2.1.3/UMSocialSDKResources.bundle/EGO -LUmengSocial/UMSocial_Sdk_All_2.1.3/UMSocial_Sdk_2.1.3/UMSocialSDKResources.bundle/SocialSDKBarThemes -filelist /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-UMengSocial.build/Objects-normal/i386/Pods-UMengSocial.LinkFileList -framework Foundation -o /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Products/Debug-iphonesimulator/libPods-UMengSocial.a36"5D157ECD-2AF3-464C-8530-CA1E4C49C101-
+
+CProcessPCH /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/PrecompiledHeaders/Pods-UMengSocial-prefix-dpyskatrnltopudvtqvycekzozpf/Pods-UMengSocial-prefix.pch.pth Pods-UMengSocial-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s397550926.683894
+e397550928.925295
+r1
+xProcessPCH
+x/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/PrecompiledHeaders/Pods-UMengSocial-prefix-dpyskatrnltopudvtqvycekzozpf/Pods-UMengSocial-prefix.pch.pth
+xPods-UMengSocial-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Precompile Pods-UMengSocial-prefix.pch433baf4e25b2b741^e97df75025b2b741^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Pods-UMengSocial-prefix.pch0000000000000000^4245"ProcessPCH /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/PrecompiledHeaders/Pods-UMengSocial-prefix-dpyskatrnltopudvtqvycekzozpf/Pods-UMengSocial-prefix.pch.pth Pods-UMengSocial-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=4.3 -iquote /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-UMengSocial.build/Pods-UMengSocial-generated-files.hmap -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-UMengSocial.build/Pods-UMengSocial-own-target-headers.hmap -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-UMengSocial.build/Pods-UMengSocial-all-target-headers.hmap -iquote /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-UMengSocial.build/Pods-UMengSocial-project-headers.hmap -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Products/Debug-iphonesimulator/include -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/BuildHeaders -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/BuildHeaders/UMengSocial -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Headers -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Headers/ODRefreshControl -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Headers/SIAlertView -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Headers/UMengAnalytics -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Headers/UMengSocial -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-UMengSocial.build/DerivedSources/i386 -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-UMengSocial.build/DerivedSources -F/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/PrecompiledHeaders/Pods-UMengSocial-prefix-dpyskatrnltopudvtqvycekzozpf/Pods-UMengSocial-prefix.pch.dia -c /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Pods-UMengSocial-prefix.pch -o /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/PrecompiledHeaders/Pods-UMengSocial-prefix-dpyskatrnltopudvtqvycekzozpf/Pods-UMengSocial-prefix.pch.pth -MMD -MT dependencies -MF /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/PrecompiledHeaders/Pods-UMengSocial-prefix-dpyskatrnltopudvtqvycekzozpf/Pods-UMengSocial-prefix.pch.d36"A57E6972-FF1A-4492-A4D1-01BCCC6EDC2C-
+
+CProcessPCH /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Index/PrecompiledHeaders/Pods-UMengSocial-prefix-eftifijlqavueafaepnkcoscmegw_ast/Pods-UMengSocial-prefix.pch.pth Pods-UMengSocial-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+

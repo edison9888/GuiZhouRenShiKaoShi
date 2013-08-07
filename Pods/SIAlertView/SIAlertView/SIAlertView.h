@@ -65,4 +65,7 @@ typedef void(^SIAlertViewHandler)(SIAlertView *alertView);
 - (void)show;
 - (void)dismissAnimated:(BOOL)animated;
 
++ (SIAlertView *)showWithMessage:(NSString *)message text1:(NSString *)ok  okBlock:(void (^)())okBlock;
++ (SIAlertView *)showWithTitle:(NSString *)title andMessage:(NSString *)message text1:(NSString *)ok  okBlock:(void (^)())okBlock;
++ (SIAlertView *)showWithTitle:(NSString *)title andMessage:(NSString *)message text1:(NSString *)ok text2:(NSString *)cancel okBlock:(void (^)())okBlock cancelBlock:(void (^)())cancelBlock;
 @end

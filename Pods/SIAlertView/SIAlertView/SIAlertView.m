@@ -972,4 +972,44 @@ static SIAlertView *__si_alert_current_view;
     self.containerView.layer.shadowRadius = shadowRadius;
 }
 
++ (SIAlertView *)showWithMessage:(NSString *)message text1:(NSString *)ok  okBlock:(void (^)())okBlock
+{
+    return [SIAlertView showWithTitle:@"提示" andMessage:message text1:ok okBlock:okBlock];
+}
+
+
++ (SIAlertView *)showWithTitle:(NSString *)title andMessage:(NSString *)message text1:(NSString *)ok  okBlock:(void (^)())okBlock
+{
+    return [SIAlertView showWithTitle:title andMessage:message text1:ok text2:nil okBlock:okBlock cancelBlock:nil];
+}
+
+
++ (SIAlertView *)showWithTitle:(NSString *)title
+                    andMessage:(NSString *)message
+                         text1:(NSString *)ok
+                         text2:(NSString *)cancel
+                       okBlock:(void (^)())okBlock
+                   cancelBlock:(void (^)())cancelBlock
+{
+    SIAlertView *alertView = [[SIAlertView alloc] initWithTitle:title andMessage:message];
+    alertView.transitionStyle = SIAlertViewTransitionStyleDropDown;
+    if(ok)
+    {
+        [alertView addButtonWithTitle:ok type:SIAlertViewButtonTypeDefault handler:^(SIAlertView *alertView) {
+            [alertView dismissAnimated:YES];
+            okBlock();
+        }];
+    }
+    
+    if(cancel)
+    {
+        [alertView addButtonWithTitle:cancel type:SIAlertViewButtonTypeDefault handler:^(SIAlertView *alertView) {
+            [alertView dismissAnimated:YES];
+            cancelBlock();
+        }];
+    }
+    
+    [alertView show];
+    return alertView;
+}
 @end

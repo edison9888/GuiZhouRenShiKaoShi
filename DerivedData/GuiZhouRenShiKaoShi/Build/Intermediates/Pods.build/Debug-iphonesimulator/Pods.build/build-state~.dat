@@ -1,0 +1,85 @@
+TPods
+v5
+r1
+cCheck dependencies
+cCompileC /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Products/Debug-iphonesimulator/libPods.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000511245E7000000000062AD10
+t1360152039
+s6466832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000051BAD05A0000000000000110
+t1371197530
+s272
+
+N/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o
+t2
+s0
+
+N/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods.LinkFileList
+c000000005201EDD300000000000000AA
+t1375858131
+s170
+
+N/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Products/Debug-iphonesimulator/libPods-ODRefreshControl.a
+c000000005201EDD30000000000021C90
+t1375858131
+s138384
+
+N/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Products/Debug-iphonesimulator/libPods-SIAlertView.a
+c000000005201EDD1000000000003BA70
+t1375858129
+s244336
+
+N/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Products/Debug-iphonesimulator/libPods-UMengAnalytics.a
+c000000005201EDD10000000000000E40
+t1375858129
+s3648
+
+N/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Products/Debug-iphonesimulator/libPods-UMengSocial.a
+c000000005201EDD10000000000000E18
+t1375858129
+s3608
+
+N/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Products/Debug-iphonesimulator/libPods.a
+t2
+s0
+
+N/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Pods-dummy.m
+c000000005201CE860000000000000070
+t1375850118
+s112
+
+CBuild AST from /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Pods-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies69c98b5325b2b741^8fc7a05325b2b741^---0#1#0#--18"Check dependencies36"C6D3A502-5CF3-4CB5-9EDD-D491331C51B2-
+
+CCompileC /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s397550931.629787
+e397550931.870710
+r1
+xCompileC
+x/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o
+x/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Pods-dummy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Pods-dummy.m8f52a15325b2b741^f7e7de5325b2b741^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Pods-dummy.m0000000000000000^3873"CompileC /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=4.3 -iquote /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Products/Debug-iphonesimulator/include -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Pods/Headers -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Pods/Headers/ODRefreshControl -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Pods/Headers/SIAlertView -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Pods/Headers/UMengAnalytics -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Pods/Headers/UMengSocial -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources -F/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.d --serialize-diagnostics /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.dia -c /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Pods-dummy.m -o /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o36"2BFD29AF-9A8A-4368-A2E5-5C9EA68D17CB-
+
+CLibtool /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Products/Debug-iphonesimulator/libPods.a normal i386
+s397550931.877569
+e397550932.059466
+r1
+xLibtool
+x/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Products/Debug-iphonesimulator/libPods.a
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Libtool /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Products/Debug-iphonesimulator/libPods.a normal i3861dcae05325b2b741^db4f165425b2b741^---0#0#0#--1382"Libtool /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Products/Debug-iphonesimulator/libPods.a normal i386    cd /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Products/Debug-iphonesimulator -L/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Pods/UMengAnalytics -L/Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Pods/UmengSocial/UMSocial_Sdk_All_2.1.3/UMSocial_Sdk_2.1.3 -filelist /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods.LinkFileList -framework Foundation -lPods-ODRefreshControl -lPods-SIAlertView -lPods-UMengAnalytics -lPods-UMengSocial -o /Users/lt/IOSProject/GuiZhouRenShiKaoShi/DerivedData/GuiZhouRenShiKaoShi/Build/Products/Debug-iphonesimulator/libPods.a36"8DEA5F41-FB8B-40A6-B298-8374478C9C5A-
+

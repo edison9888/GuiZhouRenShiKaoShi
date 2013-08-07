@@ -19,6 +19,7 @@
 		6962B02B17811ADA000F543C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6962B02A17811ADA000F543C /* main.m */; };
 		6962B02F17811ADA000F543C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6962B02E17811ADA000F543C /* AppDelegate.m */; };
 		6962B04417811B53000F543C /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6962B04317811B53000F543C /* BaseController.m */; };
+		69891DC517B221E30000CE29 /* Crackify.m in Sources */ = {isa = PBXBuildFile; fileRef = 69891DC417B221E30000CE29 /* Crackify.m */; };
 		6997F4A5178D0F9F00B7CFC8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6997F4A4178D0F9F00B7CFC8 /* QuartzCore.framework */; };
 		6997F4A8178D2F8400B7CFC8 /* NewsListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6997F4A7178D2F8400B7CFC8 /* NewsListCell.m */; };
 		6997F4AA178D303A00B7CFC8 /* NewsListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6997F4A9178D303A00B7CFC8 /* NewsListCell.xib */; };
@@ -114,6 +115,8 @@
 		6962B02E17811ADA000F543C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6962B04217811B53000F543C /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
 		6962B04317811B53000F543C /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
+		69891DC317B221E30000CE29 /* Crackify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crackify.h; sourceTree = "<group>"; };
+		69891DC417B221E30000CE29 /* Crackify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Crackify.m; sourceTree = "<group>"; };
 		6997F4A4178D0F9F00B7CFC8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		6997F4A6178D2F8400B7CFC8 /* NewsListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsListCell.h; sourceTree = "<group>"; };
 		6997F4A7178D2F8400B7CFC8 /* NewsListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsListCell.m; sourceTree = "<group>"; };
@@ -268,6 +271,7 @@
 		6962B02417811AD9000F543C /* GuiZhouRenShiKaoShi */ = {
 			isa = PBXGroup;
 			children = (
+				69891DC217B221D40000CE29 /* External */,
 				6997F4C1178D524400B7CFC8 /* Category */,
 				6997F4AB178D369F00B7CFC8 /* Resource */,
 				69092667178AA2270013EBB0 /* View */,
@@ -310,6 +314,15 @@
 				6997F5B4178E446E00B7CFC8 /* AccessoryController.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		69891DC217B221D40000CE29 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				69891DC317B221E30000CE29 /* Crackify.h */,
+				69891DC417B221E30000CE29 /* Crackify.m */,
+			);
+			name = External;
 			sourceTree = "<group>";
 		};
 		6997F4AB178D369F00B7CFC8 /* Resource */ = {
@@ -572,6 +585,7 @@
 				6997F5B6178E446E00B7CFC8 /* AccessoryController.m in Sources */,
 				6997F5BA178E46EB00B7CFC8 /* UIWebView+HideGradientBackground.m in Sources */,
 				6997F5C9178E8A0100B7CFC8 /* UIColor+HexString.m in Sources */,
+				69891DC517B221E30000CE29 /* Crackify.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

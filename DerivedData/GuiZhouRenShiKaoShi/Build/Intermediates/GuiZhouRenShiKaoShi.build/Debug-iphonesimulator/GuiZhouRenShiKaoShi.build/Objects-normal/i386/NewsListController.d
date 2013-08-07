@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/lt/IOSProject/GuiZhouRenShiKaoShi/BaseIOSProject/NewsListController.m \
+  /Users/lt/IOSProject/GuiZhouRenShiKaoShi/BaseIOSProject/NewsListController.h \
+  /Users/lt/IOSProject/GuiZhouRenShiKaoShi/BaseIOSProject/BaseController.h \
+  /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Headers/SIAlertView/SIAlertView.h \
+  /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Headers/ODRefreshControl/ODRefreshControl.h \
+  /Users/lt/IOSProject/GuiZhouRenShiKaoShi/BaseIOSProject/NewsContentController.h \
+  /Users/lt/IOSProject/GuiZhouRenShiKaoShi/BaseIOSProject/News.h \
+  /Users/lt/IOSProject/GuiZhouRenShiKaoShi/BaseIOSProject/NewsListCell.h \
+  /Users/lt/IOSProject/GuiZhouRenShiKaoShi/BaseIOSProject/LHSwipeCell.h \
+  /Users/lt/IOSProject/GuiZhouRenShiKaoShi/BaseIOSProject/Parser.h \
+  /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Headers/UMengSocial/UMSocial.h \
+  /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Headers/UMengSocial/UMSocialData.h \
+  /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Headers/UMengSocial/UMSocialDataService.h \
+  /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Headers/UMengSocial/UMSocialControllerService.h \
+  /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Headers/UMengSocial/UMSocialControllerServiceComment.h \
+  /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Headers/UMengSocial/UMSocialAccountManager.h \
+  /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Headers/UMengSocial/UMSocialSnsPlatformManager.h \
+  /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Headers/UMengSocial/UMSocialSnsService.h \
+  /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Headers/UMengSocial/UMSocialBar.h \
+  /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Headers/UMengSocial/UMSocialConfig.h \
+  /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Headers/UMengSocial/WXApi.h \
+  /Users/lt/IOSProject/GuiZhouRenShiKaoShi/Pods/Headers/UMengSocial/WXApiObject.h \
+  /Users/lt/IOSProject/GuiZhouRenShiKaoShi/BaseIOSProject/UIView+screenshot.h
