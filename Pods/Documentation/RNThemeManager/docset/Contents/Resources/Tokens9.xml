@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/RNThemeUpdateProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/RNThemeUpdateProtocol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeUpdateProtocol.h</DeclaredIn>
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/RNThemeUpdateProtocol/applyTheme</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeUpdateProtocol.h</DeclaredIn>			
+			
+			<Declaration>- (void)applyTheme</Declaration>
+			
+			
+			<Anchor>//api/name/applyTheme</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

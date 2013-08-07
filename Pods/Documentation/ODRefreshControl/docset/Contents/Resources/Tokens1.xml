@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ODRefreshControl.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ODRefreshControl</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ODRefreshControl.h</DeclaredIn>
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ODRefreshControl/setRefreshing:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ODRefreshControl.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL refreshing</Declaration>
+			
+			
+			<Anchor>//api/name/refreshing</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ODRefreshControl/refreshing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ODRefreshControl.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL refreshing</Declaration>
+			
+			
+			<Anchor>//api/name/refreshing</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ODRefreshControl/setTintColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ODRefreshControl.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *tintColor</Declaration>
+			
+			
+			<Anchor>//api/name/tintColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ODRefreshControl/tintColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ODRefreshControl.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *tintColor</Declaration>
+			
+			
+			<Anchor>//api/name/tintColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ODRefreshControl/setActivityIndicatorViewStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ODRefreshControl.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UIActivityIndicatorViewStyle activityIndicatorViewStyle</Declaration>
+			
+			
+			<Anchor>//api/name/activityIndicatorViewStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ODRefreshControl/activityIndicatorViewStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ODRefreshControl.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UIActivityIndicatorViewStyle activityIndicatorViewStyle</Declaration>
+			
+			
+			<Anchor>//api/name/activityIndicatorViewStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ODRefreshControl/initInScrollView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ODRefreshControl.h</DeclaredIn>			
+			
+			<Declaration>- (id)initInScrollView:(UIScrollView *)scrollView</Declaration>
+			
+			
+			<Anchor>//api/name/initInScrollView:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ODRefreshControl/initInScrollView:activityIndicatorView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ODRefreshControl.h</DeclaredIn>			
+			
+			<Declaration>- (id)initInScrollView:(UIScrollView *)scrollView activityIndicatorView:(UIView *)activity</Declaration>
+			
+			
+			<Anchor>//api/name/initInScrollView:activityIndicatorView:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ODRefreshControl/beginRefreshing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ODRefreshControl.h</DeclaredIn>			
+			
+			<Declaration>- (void)beginRefreshing</Declaration>
+			
+			
+			<Anchor>//api/name/beginRefreshing</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ODRefreshControl/endRefreshing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ODRefreshControl.h</DeclaredIn>			
+			
+			<Declaration>- (void)endRefreshing</Declaration>
+			
+			
+			<Anchor>//api/name/endRefreshing</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/RNThemeManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/RNThemeManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeManager.h</DeclaredIn>
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/RNThemeManager/sharedManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeManager.h</DeclaredIn>			
+			
+			<Declaration>+ (RNThemeManager *)sharedManager</Declaration>
+			
+			
+			<Anchor>//api/name/sharedManager</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RNThemeManager/setStyles:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSDictionary *styles</Declaration>
+			
+			
+			<Anchor>//api/name/styles</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RNThemeManager/styles</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSDictionary *styles</Declaration>
+			
+			
+			<Anchor>//api/name/styles</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RNThemeManager/setCurrentThemeName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *currentThemeName</Declaration>
+			
+			
+			<Anchor>//api/name/currentThemeName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RNThemeManager/currentThemeName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *currentThemeName</Declaration>
+			
+			
+			<Anchor>//api/name/currentThemeName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RNThemeManager/fontForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeManager.h</DeclaredIn>			
+			
+			<Declaration>- (UIFont *)fontForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/fontForKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RNThemeManager/colorForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeManager.h</DeclaredIn>			
+			
+			<Declaration>- (UIColor *)colorForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/colorForKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RNThemeManager/imageForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeManager.h</DeclaredIn>			
+			
+			<Declaration>- (UIImage *)imageForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/imageForKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RNThemeManager/changeTheme:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeManager.h</DeclaredIn>			
+			
+			<Declaration>- (void)changeTheme:(NSString *)themeName</Declaration>
+			
+			
+			<Anchor>//api/name/changeTheme:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

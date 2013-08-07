@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/UMSocialIconActionSheet.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/UMSocialIconActionSheet</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UMSocialControllerService.h</DeclaredIn>
+			
+			<NodeRef refid="22"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialIconActionSheet/showInView:</TokenIdentifier>
+			<Abstract type="html">将自己自下往上弹出来</Abstract>
+			<DeclaredIn>UMSocialControllerService.h</DeclaredIn>			
+			
+			<Declaration>- (void)showInView:(UIView *)showView</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>showView</Name>
+					<Abstract type="html">在此父UIView自下往上弹出来的</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/showInView:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialIconActionSheet/dismiss</TokenIdentifier>
+			<Abstract type="html">将自己移除</Abstract>
+			<DeclaredIn>UMSocialControllerService.h</DeclaredIn>			
+			
+			<Declaration>- (void)dismiss</Declaration>
+			
+			
+			<Anchor>//api/name/dismiss</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/UMSocialBarView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/UMSocialBarView</TokenIdentifier>
+			<Abstract type="html">社会化操作栏对应的视图，你可以对此视图源代码进行自定义修改，例如修改显示是否出现数字，出现哪些按钮和修改按钮的响应</Abstract>
+			<DeclaredIn>UMSocialBar.h</DeclaredIn>
+			
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialBarView/setSocialBarActionDelegate:</TokenIdentifier>
+			<Abstract type="html">操作栏回调对象</Abstract>
+			<DeclaredIn>UMSocialBar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, unsafe_unretained) id&lt;UMSocialBarActionDelegate&gt; socialBarActionDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/socialBarActionDelegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialBarView/socialBarActionDelegate</TokenIdentifier>
+			<Abstract type="html">操作栏回调对象</Abstract>
+			<DeclaredIn>UMSocialBar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, unsafe_unretained) id&lt;UMSocialBarActionDelegate&gt; socialBarActionDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/socialBarActionDelegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialBarView/setThemeColor:</TokenIdentifier>
+			<Abstract type="html">操作栏主题颜色，有白色和黑色</Abstract>
+			<DeclaredIn>UMSocialBar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UMSBarColor themeColor</Declaration>
+			
+			
+			<Anchor>//api/name/themeColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialBarView/themeColor</TokenIdentifier>
+			<Abstract type="html">操作栏主题颜色，有白色和黑色</Abstract>
+			<DeclaredIn>UMSocialBar.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UMSBarColor themeColor</Declaration>
+			
+			
+			<Anchor>//api/name/themeColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialBarView/updateButtonNumber:</TokenIdentifier>
+			<Abstract type="html">更新操作栏上的数字</Abstract>
+			<DeclaredIn>UMSocialBar.h</DeclaredIn>			
+			
+			<Declaration>- (UMSButtonTypeMask)updateButtonNumber:(UMSocialResponseEntity *)response</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>response</Name>
+					<Abstract type="html">进行网络请求返回的对象，如果不是网络请求要刷新数字，可以设置为nil</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">UMSButtonTypeMask 说明更新了哪几个操作栏的按钮,定义如上</Abstract></ReturnValue>
+			<Anchor>//api/name/updateButtonNumber:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialBarView/showError</TokenIdentifier>
+			<Abstract type="html">网络错误</Abstract>
+			<DeclaredIn>UMSocialBar.h</DeclaredIn>			
+			
+			<Declaration>- (void)showError</Declaration>
+			
+			
+			<Anchor>//api/name/showError</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialBarView/changeLikeButtonImage</TokenIdentifier>
+			<Abstract type="html">修改喜欢按钮的图片</Abstract>
+			<DeclaredIn>UMSocialBar.h</DeclaredIn>			
+			
+			<Declaration>- (void)changeLikeButtonImage</Declaration>
+			
+			
+			<Anchor>//api/name/changeLikeButtonImage</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/lt/Library/Developer/Shared/Documentation/DocSets/org.cocoapods.sialertview.SIAlertView-1.2.docset
+Time: 2013-07-11 05:30:12 +0000

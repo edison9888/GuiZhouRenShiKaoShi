@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/UMSocialExtConfig.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/UMSocialExtConfig</TokenIdentifier>
+			<Abstract type="html">分享到各个平台的扩展设置</Abstract>
+			<DeclaredIn>UMSocialData.h</DeclaredIn>
+			
+			<NodeRef refid="21"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialExtConfig/setTitle:</TokenIdentifier>
+			<Abstract type="html">标题，用于指定微信分享标题，qzone分享的标题和邮件分享的标题。</Abstract>
+			<DeclaredIn>UMSocialData.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialExtConfig/title</TokenIdentifier>
+			<Abstract type="html">标题，用于指定微信分享标题，qzone分享的标题和邮件分享的标题。</Abstract>
+			<DeclaredIn>UMSocialData.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialExtConfig/setThumbUrl:</TokenIdentifier>
+			<Abstract type="html">缩略图的url，用于指定qzone分享，如果有分享视频的话可以指定一张视频的缩略图</Abstract>
+			<DeclaredIn>UMSocialData.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *thumbUrl</Declaration>
+			
+			
+			<Anchor>//api/name/thumbUrl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialExtConfig/thumbUrl</TokenIdentifier>
+			<Abstract type="html">缩略图的url，用于指定qzone分享，如果有分享视频的话可以指定一张视频的缩略图</Abstract>
+			<DeclaredIn>UMSocialData.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *thumbUrl</Declaration>
+			
+			
+			<Anchor>//api/name/thumbUrl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialExtConfig/setWxMessageType:</TokenIdentifier>
+			<Abstract type="html">分享到微信的消息类型，分别有文字类型，图片类型，app类型（文字和图片都有，点击可以返回app或者到指定url，不过不能全部显示所有文字内容）</Abstract>
+			<DeclaredIn>UMSocialData.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UMSocialWXMessageType wxMessageType</Declaration>
+			
+			
+			<Anchor>//api/name/wxMessageType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialExtConfig/wxMessageType</TokenIdentifier>
+			<Abstract type="html">分享到微信的消息类型，分别有文字类型，图片类型，app类型（文字和图片都有，点击可以返回app或者到指定url，不过不能全部显示所有文字内容）</Abstract>
+			<DeclaredIn>UMSocialData.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UMSocialWXMessageType wxMessageType</Declaration>
+			
+			
+			<Anchor>//api/name/wxMessageType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialExtConfig/setWxDescription:</TokenIdentifier>
+			<Abstract type="html">微信分享的正文内容，如果不设置的话，默认用UMSocialData的shareText</Abstract>
+			<DeclaredIn>UMSocialData.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *wxDescription</Declaration>
+			
+			
+			<Anchor>//api/name/wxDescription</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialExtConfig/wxDescription</TokenIdentifier>
+			<Abstract type="html">微信分享的正文内容，如果不设置的话，默认用UMSocialData的shareText</Abstract>
+			<DeclaredIn>UMSocialData.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *wxDescription</Declaration>
+			
+			
+			<Anchor>//api/name/wxDescription</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialExtConfig/setWxMediaObject:</TokenIdentifier>
+			<Abstract type="html">微信多媒体资源的分享</Abstract>
+			<DeclaredIn>UMSocialData.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) id wxMediaObject</Declaration>
+			
+			
+			<Anchor>//api/name/wxMediaObject</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialExtConfig/wxMediaObject</TokenIdentifier>
+			<Abstract type="html">微信多媒体资源的分享</Abstract>
+			<DeclaredIn>UMSocialData.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) id wxMediaObject</Declaration>
+			
+			
+			<Anchor>//api/name/wxMediaObject</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialExtConfig/setMailMessage:</TokenIdentifier>
+			<Abstract type="html">邮件分享的正文内容,如果不设置的话，默认用UMSocialData的shareText</Abstract>
+			<DeclaredIn>UMSocialData.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *mailMessage</Declaration>
+			
+			
+			<Anchor>//api/name/mailMessage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialExtConfig/mailMessage</TokenIdentifier>
+			<Abstract type="html">邮件分享的正文内容,如果不设置的话，默认用UMSocialData的shareText</Abstract>
+			<DeclaredIn>UMSocialData.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *mailMessage</Declaration>
+			
+			
+			<Anchor>//api/name/mailMessage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialExtConfig/setAppUrl:</TokenIdentifier>
+			<Abstract type="html">app下载地址</Abstract>
+			<DeclaredIn>UMSocialData.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *appUrl</Declaration>
+			
+			
+			<Anchor>//api/name/appUrl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialExtConfig/appUrl</TokenIdentifier>
+			<Abstract type="html">app下载地址</Abstract>
+			<DeclaredIn>UMSocialData.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *appUrl</Declaration>
+			
+			
+			<Anchor>//api/name/appUrl</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

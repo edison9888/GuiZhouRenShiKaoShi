@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/UMSocialSnsPlatform.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/UMSocialSnsPlatform</TokenIdentifier>
+			<Abstract type="html">Sns平台类，用platformName作为标识，指定显示名称、显示的图片，点击之后的响应。</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>
+			
+			<NodeRef refid="24"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialSnsPlatform/setPlatformName:</TokenIdentifier>
+			<Abstract type="html">平台标示符</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *platformName</Declaration>
+			
+			
+			<Anchor>//api/name/platformName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialSnsPlatform/platformName</TokenIdentifier>
+			<Abstract type="html">平台标示符</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *platformName</Declaration>
+			
+			
+			<Anchor>//api/name/platformName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialSnsPlatform/setDisplayName:</TokenIdentifier>
+			<Abstract type="html">显示名称</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *displayName</Declaration>
+			
+			
+			<Anchor>//api/name/displayName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialSnsPlatform/displayName</TokenIdentifier>
+			<Abstract type="html">显示名称</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *displayName</Declaration>
+			
+			
+			<Anchor>//api/name/displayName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialSnsPlatform/setLoginName:</TokenIdentifier>
+			<Abstract type="html">登录名称</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *loginName</Declaration>
+			
+			
+			<Anchor>//api/name/loginName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialSnsPlatform/loginName</TokenIdentifier>
+			<Abstract type="html">登录名称</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *loginName</Declaration>
+			
+			
+			<Anchor>//api/name/loginName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialSnsPlatform/setShareToType:</TokenIdentifier>
+			<Abstract type="html">分享类型</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UMSocialSnsType shareToType</Declaration>
+			
+			
+			<Anchor>//api/name/shareToType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialSnsPlatform/shareToType</TokenIdentifier>
+			<Abstract type="html">分享类型</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UMSocialSnsType shareToType</Declaration>
+			
+			
+			<Anchor>//api/name/shareToType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialSnsPlatform/setBigImageName:</TokenIdentifier>
+			<Abstract type="html">大图片的文件名,用于UMSocialIconActionSheet</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *bigImageName</Declaration>
+			
+			
+			<Anchor>//api/name/bigImageName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialSnsPlatform/bigImageName</TokenIdentifier>
+			<Abstract type="html">大图片的文件名,用于UMSocialIconActionSheet</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *bigImageName</Declaration>
+			
+			
+			<Anchor>//api/name/bigImageName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialSnsPlatform/setSmallImageName:</TokenIdentifier>
+			<Abstract type="html">小图片的文件名，用于分享列表、登录、个人中心、评论编辑页面等</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *smallImageName</Declaration>
+			
+			
+			<Anchor>//api/name/smallImageName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialSnsPlatform/smallImageName</TokenIdentifier>
+			<Abstract type="html">小图片的文件名，用于分享列表、登录、个人中心、评论编辑页面等</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *smallImageName</Declaration>
+			
+			
+			<Anchor>//api/name/smallImageName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialSnsPlatform/setSmallImageOffName:</TokenIdentifier>
+			<Abstract type="html">无色的小图片文件名，用于评论编辑页面显示没有授权状态</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *smallImageOffName</Declaration>
+			
+			
+			<Anchor>//api/name/smallImageOffName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialSnsPlatform/smallImageOffName</TokenIdentifier>
+			<Abstract type="html">无色的小图片文件名，用于评论编辑页面显示没有授权状态</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *smallImageOffName</Declaration>
+			
+			
+			<Anchor>//api/name/smallImageOffName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialSnsPlatform/setOauthBaseURLString:</TokenIdentifier>
+			<Abstract type="html">授权url</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *oauthBaseURLString</Declaration>
+			
+			
+			<Anchor>//api/name/oauthBaseURLString</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialSnsPlatform/oauthBaseURLString</TokenIdentifier>
+			<Abstract type="html">授权url</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *oauthBaseURLString</Declaration>
+			
+			
+			<Anchor>//api/name/oauthBaseURLString</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialSnsPlatform/setOauthCallBackPath:</TokenIdentifier>
+			<Abstract type="html">授权回调url</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *oauthCallBackPath</Declaration>
+			
+			
+			<Anchor>//api/name/oauthCallBackPath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialSnsPlatform/oauthCallBackPath</TokenIdentifier>
+			<Abstract type="html">授权回调url</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *oauthCallBackPath</Declaration>
+			
+			
+			<Anchor>//api/name/oauthCallBackPath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialSnsPlatform/setSnsClickHandler:</TokenIdentifier>
+			<Abstract type="html">处理点击分享事件后的block对象</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) UMSocialSnsPlatformClickHandler snsClickHandler</Declaration>
+			
+			
+			<Anchor>//api/name/snsClickHandler</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialSnsPlatform/snsClickHandler</TokenIdentifier>
+			<Abstract type="html">处理点击分享事件后的block对象</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) UMSocialSnsPlatformClickHandler snsClickHandler</Declaration>
+			
+			
+			<Anchor>//api/name/snsClickHandler</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialSnsPlatform/setLoginClickHandler:</TokenIdentifier>
+			<Abstract type="html">处理点击登录事件后的block对象</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) UMSocialSnsPlatformLoginHandler loginClickHandler</Declaration>
+			
+			
+			<Anchor>//api/name/loginClickHandler</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialSnsPlatform/loginClickHandler</TokenIdentifier>
+			<Abstract type="html">处理点击登录事件后的block对象</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) UMSocialSnsPlatformLoginHandler loginClickHandler</Declaration>
+			
+			
+			<Anchor>//api/name/loginClickHandler</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialSnsPlatform/initWithPlatformName:</TokenIdentifier>
+			<Abstract type="html">初始化方法</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithPlatformName:(NSString *)platformName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>platformName</Name>
+					<Abstract type="html">作为该对象标识的平台名</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithPlatformName:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

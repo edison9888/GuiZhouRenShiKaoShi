@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/UMSocialControllerServiceComment.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/UMSocialControllerServiceComment</TokenIdentifier>
+			<Abstract type="html">用此类的方法可以得到分享的有关UI对象，例如分享列表、评论列表、分享编辑页、分享授权页、个人中心页面等。返回都是UINavigationController对象，建议把这个对象present到你要添加到的UIViewController上</Abstract>
+			<DeclaredIn>UMSocialControllerServiceComment.h</DeclaredIn>
+			
+			<NodeRef refid="17"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UMSocialControllerServiceComment/defaultControllerService</TokenIdentifier>
+			<Abstract type="html">返回一个以[UMSocialData defaultData]来做初始化参数的UMSocialControllerServiceComment对象</Abstract>
+			<DeclaredIn>UMSocialControllerServiceComment.h</DeclaredIn>			
+			
+			<Declaration>+ (UMSocialControllerServiceComment *)defaultControllerService</Declaration>
+			
+			<ReturnValue><Abstract type="html">UMSocialControllerServiceComment的默认初始化对象</Abstract></ReturnValue>
+			<Anchor>//api/name/defaultControllerService</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialControllerServiceComment/getSocialCommentListController</TokenIdentifier>
+			<Abstract type="html">评论列表页面，评论列表页面包括各评论详情、评论编辑</Abstract>
+			<DeclaredIn>UMSocialControllerServiceComment.h</DeclaredIn>			
+			
+			<Declaration>- (UINavigationController *)getSocialCommentListController</Declaration>
+			
+			<ReturnValue><Abstract type="html">UINavigationController对象</Abstract></ReturnValue>
+			<Anchor>//api/name/getSocialCommentListController</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

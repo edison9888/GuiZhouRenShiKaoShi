@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/RNThemeTextField.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/RNThemeTextField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeTextField.h</DeclaredIn>
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RNThemeTextField/setFontKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeTextField.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *fontKey</Declaration>
+			
+			
+			<Anchor>//api/name/fontKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RNThemeTextField/fontKey</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeTextField.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *fontKey</Declaration>
+			
+			
+			<Anchor>//api/name/fontKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RNThemeTextField/setTextColorKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeTextField.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *textColorKey</Declaration>
+			
+			
+			<Anchor>//api/name/textColorKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RNThemeTextField/textColorKey</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeTextField.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *textColorKey</Declaration>
+			
+			
+			<Anchor>//api/name/textColorKey</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

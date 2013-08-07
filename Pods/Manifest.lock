@@ -1,0 +1,19 @@
+PODS:
+  - ODRefreshControl (1.1.0)
+  - SIAlertView (1.2)
+  - UMengAnalytics (2.2.0)
+  - UMengSocial (2.1.3)
+
+DEPENDENCIES:
+  - ODRefreshControl (~> 1.1.0)
+  - SIAlertView (~> 1.2)
+  - UMengAnalytics (~> 2.2.0)
+  - UMengSocial (~> 2.1.3)
+
+SPEC CHECKSUMS:
+  ODRefreshControl: 886e323a7c25114b9e5c397a9eefbebc034224a9
+  SIAlertView: fd188f66278761f4ff069f517c3deb2be16ecdcc
+  UMengAnalytics: 8da44b6e1f604cd56202a820108b86df79a929bc
+  UMengSocial: ec4f829398c5328d622a9a2006b3e78d7853cf60
+
+COCOAPODS: 0.22.2

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/UMSocialSnsPlatformManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/UMSocialSnsPlatformManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>
+			
+			<NodeRef refid="25"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialSnsPlatformManager/setAllSnsValuesArray:</TokenIdentifier>
+			<Abstract type="html">sns平台配置数组，此数组由allSnsArray转换，只包含平台名作为元素</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *allSnsValuesArray</Declaration>
+			
+			
+			<Anchor>//api/name/allSnsValuesArray</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialSnsPlatformManager/allSnsValuesArray</TokenIdentifier>
+			<Abstract type="html">sns平台配置数组，此数组由allSnsArray转换，只包含平台名作为元素</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *allSnsValuesArray</Declaration>
+			
+			
+			<Anchor>//api/name/allSnsValuesArray</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialSnsPlatformManager/setAllSnsPlatformDictionary:</TokenIdentifier>
+			<Abstract type="html">该NSDictionary以各个平台名为key，UMSocialPlatform对象为value</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDictionary *allSnsPlatformDictionary</Declaration>
+			
+			
+			<Anchor>//api/name/allSnsPlatformDictionary</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialSnsPlatformManager/allSnsPlatformDictionary</TokenIdentifier>
+			<Abstract type="html">该NSDictionary以各个平台名为key，UMSocialPlatform对象为value</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSDictionary *allSnsPlatformDictionary</Declaration>
+			
+			
+			<Anchor>//api/name/allSnsPlatformDictionary</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UMSocialSnsPlatformManager/sharedInstance</TokenIdentifier>
+			<Abstract type="html">UMSocialSnsPlatformManager的单例方法</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>+ (UMSocialSnsPlatformManager *)sharedInstance</Declaration>
+			
+			<ReturnValue><Abstract type="html">UMSocialSnsPlatformManager的单例对象</Abstract></ReturnValue>
+			<Anchor>//api/name/sharedInstance</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UMSocialSnsPlatformManager/getSocialPlatformWithName:</TokenIdentifier>
+			<Abstract type="html">根据平台名，返回平台对象</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>+ (UMSocialSnsPlatform *)getSocialPlatformWithName:(NSString *)snsName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>platformName</Name>
+					<Abstract type="html">sns平台名</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">UMSocialSnsPlatform 平台对象</Abstract></ReturnValue>
+			<Anchor>//api/name/getSocialPlatformWithName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UMSocialSnsPlatformManager/getSnsPlatformString:</TokenIdentifier>
+			<Abstract type="html">根据平台枚举变量，返回平台对象</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)getSnsPlatformString:(UMSocialSnsType)socialSnsType</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>UMSocialSnsType</Name>
+					<Abstract type="html">sns平台枚举变量</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSString 平台名</Abstract></ReturnValue>
+			<Anchor>//api/name/getSnsPlatformString:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UMSocialSnsPlatformManager/getSnsPlatformStringFromIndex:</TokenIdentifier>
+			<Abstract type="html">把配置平台的次序号转换成平台名</Abstract>
+			<DeclaredIn>UMSocialSnsPlatformManager.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)getSnsPlatformStringFromIndex:(NSInteger)snsIndex</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>snsIndex</Name>
+					<Abstract type="html">使用的平台顺序，使用的平台配置在UMSocialConfigDelegate,例如- (NSArray *)shareToPlatforms;返回的是UMSocialSnsTypeSina和UMSocialSnsTypeTenc,UMSocialSnsTypeSina就是0，UMSocialSnsTypeTenc就是1</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">平台名字符串</Abstract></ReturnValue>
+			<Anchor>//api/name/getSnsPlatformStringFromIndex:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

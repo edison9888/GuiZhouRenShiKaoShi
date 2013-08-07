@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/UMSocialSnsService.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/UMSocialSnsService</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UMSocialSnsService.h</DeclaredIn>
+			
+			<NodeRef refid="26"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UMSocialSnsService/applicationDidBecomeActive</TokenIdentifier>
+			<Abstract type="html">当应用从后台唤起时，应调用此方法，需要完成退出当前登录状态的功能</Abstract>
+			<DeclaredIn>UMSocialSnsService.h</DeclaredIn>			
+			
+			<Declaration>+ (void)applicationDidBecomeActive</Declaration>
+			
+			
+			<Anchor>//api/name/applicationDidBecomeActive</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UMSocialSnsService/handleOpenURL:wxApiDelegate:</TokenIdentifier>
+			<Abstract type="html">处理app的URL方法</Abstract>
+			<DeclaredIn>UMSocialSnsService.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)handleOpenURL:(NSURL *)url wxApiDelegate:(id&lt;WXApiDelegate&gt;)wxApiDelegate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">传入的url</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">wxApiDelegate 实现微信代理对象</Abstract></ReturnValue>
+			<Anchor>//api/name/handleOpenURL:wxApiDelegate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UMSocialSnsService/presentSnsController:appKey:shareText:shareImage:shareToSnsNames:delegate:</TokenIdentifier>
+			<Abstract type="html">弹出一个分享列表的UITableViewController</Abstract>
+			<DeclaredIn>UMSocialSnsService.h</DeclaredIn>			
+			
+			<Declaration>+ (void)presentSnsController:(UIViewController *)controller appKey:(NSString *)appKey shareText:(NSString *)shareText shareImage:(UIImage *)shareImage shareToSnsNames:(NSArray *)snsNames delegate:(id&lt;UMSocialUIDelegate&gt;)delegate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>controller</Name>
+					<Abstract type="html">在该controller弹出分享列表的UIActionSheet</Abstract>
+				</Parameter><Parameter>
+					<Name>appKey</Name>
+					<Abstract type="html">友盟appKey</Abstract>
+				</Parameter><Parameter>
+					<Name>shareText</Name>
+					<Abstract type="html">分享编辑页面的内嵌文字</Abstract>
+				</Parameter><Parameter>
+					<Name>shareImage</Name>
+					<Abstract type="html">分享内嵌图片,用户可以在编辑页面删除</Abstract>
+				</Parameter><Parameter>
+					<Name>snsNames</Name>
+					<Abstract type="html">你要分享到的sns平台类型，该NSArray值是UMSocialEnum.h定义的平台名的字符串常量，有UMShareToSina，UMShareToTencent，UMShareToRenren，UMShareToDouban，UMShareToQzone，UMShareToEmail，UMShareToSms等</Abstract>
+				</Parameter><Parameter>
+					<Name>delegate</Name>
+					<Abstract type="html">实现分享完成后的回调对象，如果不关注分享完成的状态，可以设为nil</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/presentSnsController:appKey:shareText:shareImage:shareToSnsNames:delegate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UMSocialSnsService/presentSnsIconSheetView:appKey:shareText:shareImage:shareToSnsNames:delegate:</TokenIdentifier>
+			<Abstract type="html">弹出一个分享列表的类似iOS6的UIActivityViewController控件</Abstract>
+			<DeclaredIn>UMSocialSnsService.h</DeclaredIn>			
+			
+			<Declaration>+ (void)presentSnsIconSheetView:(UIViewController *)controller appKey:(NSString *)appKey shareText:(NSString *)shareText shareImage:(UIImage *)shareImage shareToSnsNames:(NSArray *)snsNames delegate:(id&lt;UMSocialUIDelegate&gt;)delegate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>controller</Name>
+					<Abstract type="html">在该controller弹出分享列表的UIActionSheet</Abstract>
+				</Parameter><Parameter>
+					<Name>appKey</Name>
+					<Abstract type="html">友盟appKey</Abstract>
+				</Parameter><Parameter>
+					<Name>shareText</Name>
+					<Abstract type="html">分享编辑页面的内嵌文字</Abstract>
+				</Parameter><Parameter>
+					<Name>shareImage</Name>
+					<Abstract type="html">分享内嵌图片,用户可以在编辑页面删除</Abstract>
+				</Parameter><Parameter>
+					<Name>snsNames</Name>
+					<Abstract type="html">你要分享到的sns平台类型，该NSArray值是UMSocialEnum.h定义的平台名的字符串常量，有UMShareToSina，UMShareToTencent，UMShareToRenren，UMShareToDouban，UMShareToQzone，UMShareToEmail，UMShareToSms等</Abstract>
+				</Parameter><Parameter>
+					<Name>delegate</Name>
+					<Abstract type="html">实现分享完成后的回调对象，如果不关注分享完成的状态，可以设为nil</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/presentSnsIconSheetView:appKey:shareText:shareImage:shareToSnsNames:delegate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UMSocialSnsService/sharedInstance</TokenIdentifier>
+			<Abstract type="html">得到单例对象的类方法</Abstract>
+			<DeclaredIn>UMSocialSnsService.h</DeclaredIn>			
+			
+			<Declaration>+ (UMSocialSnsService *)sharedInstance</Declaration>
+			
+			<ReturnValue><Abstract type="html">UMSocialSnsService的单例对象</Abstract></ReturnValue>
+			<Anchor>//api/name/sharedInstance</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>SIAlertView 1.2 Reference</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="index.html">SIAlertView 1.2 </a></h1>
+				<a id="developerHome" href="index.html">Sumi Interactive</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">SIAlertView 1.2 Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<div id="overview_contents" role="main">
+				<div class="main-navigation navigation-top">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">SIAlertView 1.2 Reference</h1>
+					</div>		
+				</div>
+				<div id="container">
+					
+					<div class="section section-overview index-overview">
+						
+						
+						<h1><a href="Classes/SIAlertView.html">SIAlertView</a></h1>
+
+<p>An UIAlertView replacement with block syntax and fancy transition styles. As seen in <a href="http://griddiaryapp.com/">Grid Diary</a>.</p>
+
+<h2>Preview</h2>
+
+<p>!<a href="https://github.com/Sumi-Interactive/SIAlertView/raw/master/screenshot.png">SIAlertView Screenshot</a></p>
+
+<h2>Features</h2>
+
+<ul>
+<li>use window to present</li>
+<li>happy with rotation</li>
+<li>block syntax</li>
+<li>styled transitions</li>
+<li>queue support</li>
+<li>UIAppearance support</li>
+</ul>
+
+
+<h2>Installation</h2>
+
+<h3>Cocoapods(Recommended)</h3>
+
+<ol>
+<li>Add <code>pod 'SIAlertView'</code> to your Podfile.</li>
+<li>Run <code>pod install</code></li>
+</ol>
+
+
+<h3>Manual</h3>
+
+<ol>
+<li>Add all files under <code>SIAlertView/</code>SIAlertView<code></code> to your project</li>
+<li>Add <code>QuartzCore.framework</code> to your project</li>
+</ol>
+
+
+<h2>Requirements</h2>
+
+<ul>
+<li>iOS 5.0 and greater</li>
+<li>ARC</li>
+</ul>
+
+
+<h2>Examples</h2>
+
+<p><strong>Code:</strong></p>
+
+<p>```objc
+<a href="Classes/SIAlertView.html">SIAlertView</a> *alertView = [[SIAlertView alloc] initWithTitle:@&ldquo;SIAlertView&rdquo; andMessage:@&ldquo;Sumi Interactive&rdquo;];</p>
+
+<p>[alertView addButtonWithTitle:@&ldquo;Button1&rdquo;</p>
+
+<pre><code>                     type:SIAlertViewButtonTypeDefault
+                  handler:^(SIAlertView *alert) {
+                      NSLog(@"Button1 Clicked");
+                  }];
+</code></pre>
+
+<p>[alertView addButtonWithTitle:@&ldquo;Button2&rdquo;</p>
+
+<pre><code>                     type:SIAlertViewButtonTypeDestructive
+                  handler:^(SIAlertView *alert) {
+                      NSLog(@"Button2 Clicked");
+                  }];
+</code></pre>
+
+<p>[alertView addButtonWithTitle:@&ldquo;Button3&rdquo;</p>
+
+<pre><code>                     type:SIAlertViewButtonTypeCancel
+                  handler:^(SIAlertView *alert) {
+                      NSLog(@"Button3 Clicked");
+                  }];
+</code></pre>
+
+<p>alertView.willShowHandler = ^(<a href="Classes/SIAlertView.html">SIAlertView</a> *alertView) {</p>
+
+<pre><code>NSLog(@"%@, willShowHandler", alertView);
+</code></pre>
+
+<p>};
+alertView.didShowHandler = ^(<a href="Classes/SIAlertView.html">SIAlertView</a> *alertView) {</p>
+
+<pre><code>NSLog(@"%@, didShowHandler", alertView);
+</code></pre>
+
+<p>};
+alertView.willDismissHandler = ^(<a href="Classes/SIAlertView.html">SIAlertView</a> *alertView) {</p>
+
+<pre><code>NSLog(@"%@, willDismissHandler", alertView);
+</code></pre>
+
+<p>};
+alertView.didDismissHandler = ^(<a href="Classes/SIAlertView.html">SIAlertView</a> *alertView) {</p>
+
+<pre><code>NSLog(@"%@, didDismissHandler", alertView);
+</code></pre>
+
+<p>};</p>
+
+<p>alertView.transitionStyle = SIAlertViewTransitionStyleBounce;</p>
+
+<p>[alertView show];
+```</p>
+
+<h2>Credits</h2>
+
+<p><a href="Classes/SIAlertView.html">SIAlertView</a> was created by <a href="https://github.com/Sumi-Interactive">Sumi Interactive</a> in the development of <a href="http://griddiaryapp.com/">Grid Diary</a>.</p>
+
+<h2>License</h2>
+
+<p><a href="Classes/SIAlertView.html">SIAlertView</a> is available under the MIT license. See the LICENSE file for more info.</p>
+						
+						
+					</div>
+					
+                        
+                    
+					
+					
+					<div class="index-column">
+						<h2 class="index-title">Class References</h2>
+						<ul>
+							
+							<li><a href="Classes/SIAlertView.html">SIAlertView</a></li>
+							
+						</ul>
+					</div>
+					
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Sumi Interactive. All rights reserved. (Last updated: 2013-07-11)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+	
+					</div>
+				</div>
+			</div>
+		</article>		
+	</body>
+</html>

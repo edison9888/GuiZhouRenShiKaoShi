@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/WXApi.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/WXApi</TokenIdentifier>
+			<Abstract type="html">微信Api接口函数
+
+该类封装了微信终端SDK的所有接口</Abstract>
+			<DeclaredIn>WXApi.h</DeclaredIn>
+			
+			<NodeRef refid="29"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/WXApi/registerApp:</TokenIdentifier>
+			<Abstract type="html">WXApi的成员函数，在微信终端程序中注册第三方应用。
+
+需要在每次启动第三方应用程序时调用。第一次调用后，会在微信的可用应用列表中出现。</Abstract>
+			<DeclaredIn>WXApi.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)registerApp:(NSString *)appid</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>appid</Name>
+					<Abstract type="html">微信开发者ID</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">成功返回YES，失败返回NO。</Abstract></ReturnValue>
+			<Anchor>//api/name/registerApp:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/WXApi/handleOpenURL:delegate:</TokenIdentifier>
+			<Abstract type="html">处理微信通过URL启动App时传递的数据
+
+需要在 application:openURL:sourceApplication:annotation:或者application:handleOpenURL中调用。</Abstract>
+			<DeclaredIn>WXApi.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)handleOpenURL:(NSURL *)url delegate:(id&lt;WXApiDelegate&gt;)delegate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">启动App的URL</Abstract>
+				</Parameter><Parameter>
+					<Name>delegate</Name>
+					<Abstract type="html">WXApiDelegate对象，用来接收微信触发的消息。</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">成功返回YES，失败返回NO。</Abstract></ReturnValue>
+			<Anchor>//api/name/handleOpenURL:delegate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/WXApi/isWXAppInstalled</TokenIdentifier>
+			<Abstract type="html">检查微信是否已被用户安装</Abstract>
+			<DeclaredIn>WXApi.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)isWXAppInstalled</Declaration>
+			
+			<ReturnValue><Abstract type="html">微信已安装返回YES，未安装返回NO。</Abstract></ReturnValue>
+			<Anchor>//api/name/isWXAppInstalled</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/WXApi/isWXAppSupportApi</TokenIdentifier>
+			<Abstract type="html">判断当前微信的版本是否支持OpenApi</Abstract>
+			<DeclaredIn>WXApi.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)isWXAppSupportApi</Declaration>
+			
+			<ReturnValue><Abstract type="html">支持返回YES，不支持返回NO。</Abstract></ReturnValue>
+			<Anchor>//api/name/isWXAppSupportApi</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/WXApi/getWXAppSupportMaxApiVersion</TokenIdentifier>
+			<Abstract type="html">获取当前微信的版本所支持的API最高版本</Abstract>
+			<DeclaredIn>WXApi.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)getWXAppSupportMaxApiVersion</Declaration>
+			
+			<ReturnValue><Abstract type="html">返回微信支持的最高API版本号。</Abstract></ReturnValue>
+			<Anchor>//api/name/getWXAppSupportMaxApiVersion</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/WXApi/getWXAppInstallUrl</TokenIdentifier>
+			<Abstract type="html">获取微信的itunes安装地址</Abstract>
+			<DeclaredIn>WXApi.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)getWXAppInstallUrl</Declaration>
+			
+			<ReturnValue><Abstract type="html">微信的安装地址字符串。</Abstract></ReturnValue>
+			<Anchor>//api/name/getWXAppInstallUrl</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/WXApi/openWXApp</TokenIdentifier>
+			<Abstract type="html">打开微信</Abstract>
+			<DeclaredIn>WXApi.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)openWXApp</Declaration>
+			
+			<ReturnValue><Abstract type="html">成功返回YES，失败返回NO。</Abstract></ReturnValue>
+			<Anchor>//api/name/openWXApp</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/WXApi/sendReq:</TokenIdentifier>
+			<Abstract type="html">发送请求到微信,等待微信返回onResp
+
+函数调用后，会切换到微信的界面。第三方应用程序等待微信返回onResp。微信在异步处理完成后一定会调用onResp。可能发送的请求有
+SendMessageToWXReq、SendAuthReq等。</Abstract>
+			<DeclaredIn>WXApi.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)sendReq:(BaseReq *)req</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>req</Name>
+					<Abstract type="html">具体的发送请求，在调用函数后，请自己释放。</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">成功返回YES，失败返回NO。</Abstract></ReturnValue>
+			<Anchor>//api/name/sendReq:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/WXApi/sendResp:</TokenIdentifier>
+			<Abstract type="html">收到微信onReq的请求，发送对应的应答给微信，并切换到微信界面
+
+函数调用后，会切换到微信的界面。第三方应用程序收到微信onReq的请求，异步处理该请求，完成后必须调用该函数。可能发送的相应有
+GetMessageFromWXResp、ShowMessageFromWXResp等。</Abstract>
+			<DeclaredIn>WXApi.h</DeclaredIn>			
+			
+			<Declaration>+ (BOOL)sendResp:(BaseResp *)resp</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>resp</Name>
+					<Abstract type="html">具体的应答内容，调用函数后，请自己释放</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">成功返回YES，失败返回NO。</Abstract></ReturnValue>
+			<Anchor>//api/name/sendResp:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

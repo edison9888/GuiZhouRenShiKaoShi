@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/lt/Library/Developer/Shared/Documentation/DocSets/org.cocoapods.rnthememanager.RNThemeManager-0.1.0.docset
+Time: 2013-07-08 08:26:45 +0000

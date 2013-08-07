@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/ODRefreshControl" "${PODS_ROOT}/Headers/SIAlertView" "${PODS_ROOT}/Headers/UMengAnalytics" "${PODS_ROOT}/Headers/UMengSocial"
+LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/UMengAnalytics/**" $(PODS_ROOT)/UmengSocial/UMSocial_Sdk_All_2.1.3/UMSocial_Sdk_2.1.3/**
+OTHER_LDFLAGS = -ObjC -lMobClickLibrary -lUMSocial_Sdk_2.1.3 -lUMSocial_Sdk_Comment_2.1.3 -lWeChatSDK_armv7_armv7s -lz -framework MobileCoreServices -framework QuartzCore -framework SystemConfiguration
+PODS_ROOT = ${SRCROOT}/Pods

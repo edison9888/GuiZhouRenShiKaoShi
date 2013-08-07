@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/RNThemeButton.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/RNThemeButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeButton.h</DeclaredIn>
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RNThemeButton/setBackgroundImageKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeButton.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *backgroundImageKey</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundImageKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RNThemeButton/backgroundImageKey</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeButton.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *backgroundImageKey</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundImageKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RNThemeButton/setBackgroundColorKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeButton.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *backgroundColorKey</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundColorKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RNThemeButton/backgroundColorKey</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeButton.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *backgroundColorKey</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundColorKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RNThemeButton/setFontKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeButton.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *fontKey</Declaration>
+			
+			
+			<Anchor>//api/name/fontKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RNThemeButton/fontKey</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeButton.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *fontKey</Declaration>
+			
+			
+			<Anchor>//api/name/fontKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RNThemeButton/setTextColorKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeButton.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *textColorKey</Declaration>
+			
+			
+			<Anchor>//api/name/textColorKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RNThemeButton/textColorKey</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeButton.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *textColorKey</Declaration>
+			
+			
+			<Anchor>//api/name/textColorKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RNThemeButton/setHighlightedTextColorKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeButton.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *highlightedTextColorKey</Declaration>
+			
+			
+			<Anchor>//api/name/highlightedTextColorKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RNThemeButton/highlightedTextColorKey</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RNThemeButton.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *highlightedTextColorKey</Declaration>
+			
+			
+			<Anchor>//api/name/highlightedTextColorKey</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

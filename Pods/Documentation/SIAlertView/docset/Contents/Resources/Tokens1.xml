@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SIAlertView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SIAlertView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SIAlertView.h</DeclaredIn>
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SIAlertView/setTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SIAlertView/title</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SIAlertView/setMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SIAlertView/message</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SIAlertView/setTransitionStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SIAlertViewTransitionStyle transitionStyle</Declaration>
+			
+			
+			<Anchor>//api/name/transitionStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SIAlertView/transitionStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SIAlertViewTransitionStyle transitionStyle</Declaration>
+			
+			
+			<Anchor>//api/name/transitionStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SIAlertView/setBackgroundStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SIAlertViewBackgroundStyle backgroundStyle</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SIAlertView/backgroundStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) SIAlertViewBackgroundStyle backgroundStyle</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SIAlertView/setWillShowHandler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) SIAlertViewHandler willShowHandler</Declaration>
+			
+			
+			<Anchor>//api/name/willShowHandler</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SIAlertView/willShowHandler</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) SIAlertViewHandler willShowHandler</Declaration>
+			
+			
+			<Anchor>//api/name/willShowHandler</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SIAlertView/setDidShowHandler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) SIAlertViewHandler didShowHandler</Declaration>
+			
+			
+			<Anchor>//api/name/didShowHandler</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SIAlertView/didShowHandler</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) SIAlertViewHandler didShowHandler</Declaration>
+			
+			
+			<Anchor>//api/name/didShowHandler</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SIAlertView/setWillDismissHandler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) SIAlertViewHandler willDismissHandler</Declaration>
+			
+			
+			<Anchor>//api/name/willDismissHandler</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SIAlertView/willDismissHandler</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) SIAlertViewHandler willDismissHandler</Declaration>
+			
+			
+			<Anchor>//api/name/willDismissHandler</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SIAlertView/setDidDismissHandler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) SIAlertViewHandler didDismissHandler</Declaration>
+			
+			
+			<Anchor>//api/name/didDismissHandler</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SIAlertView/didDismissHandler</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) SIAlertViewHandler didDismissHandler</Declaration>
+			
+			
+			<Anchor>//api/name/didDismissHandler</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SIAlertView/setVisible:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, getter=isVisible) BOOL visible</Declaration>
+			
+			
+			<Anchor>//api/name/visible</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SIAlertView/visible</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, getter=isVisible) BOOL visible</Declaration>
+			
+			
+			<Anchor>//api/name/visible</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SIAlertView/set_0:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *NS_AVAILABLE_IOS ( 5 _0</Declaration>
+			
+			
+			<Anchor>//api/name/_0</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SIAlertView/_0</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SIAlertView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *NS_AVAILABLE_IOS ( 5 _0</Declaration>
+			
+			
+			<Anchor>//api/name/_0</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SIAlertView/initWithTitle:andMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SIAlertView.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTitle:(NSString *)title andMessage:(NSString *)message</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTitle:andMessage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SIAlertView/addButtonWithTitle:type:handler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SIAlertView.h</DeclaredIn>			
+			
+			<Declaration>- (void)addButtonWithTitle:(NSString *)title type:(SIAlertViewButtonType)type handler:(SIAlertViewHandler)handler</Declaration>
+			
+			
+			<Anchor>//api/name/addButtonWithTitle:type:handler:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SIAlertView/show</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SIAlertView.h</DeclaredIn>			
+			
+			<Declaration>- (void)show</Declaration>
+			
+			
+			<Anchor>//api/name/show</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SIAlertView/dismissAnimated:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SIAlertView.h</DeclaredIn>			
+			
+			<Declaration>- (void)dismissAnimated:(BOOL)animated</Declaration>
+			
+			
+			<Anchor>//api/name/dismissAnimated:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

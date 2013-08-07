@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/UMSocialUrlResource.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/UMSocialUrlResource</TokenIdentifier>
+			<Abstract type="html">分享到微博的多媒体资源，包括指定url的图片、音乐、视频</Abstract>
+			<DeclaredIn>UMSocialData.h</DeclaredIn>
+			
+			<NodeRef refid="28"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialUrlResource/setUrl:</TokenIdentifier>
+			<Abstract type="html">url地址</Abstract>
+			<DeclaredIn>UMSocialData.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialUrlResource/url</TokenIdentifier>
+			<Abstract type="html">url地址</Abstract>
+			<DeclaredIn>UMSocialData.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialUrlResource/setResourceType:</TokenIdentifier>
+			<Abstract type="html">资源类型，图片（UMSocialUrlResourceTypeImage）、视频（UMSocialUrlResourceTypeVideo），音乐（UMSocialUrlResourceTypeMusic）</Abstract>
+			<DeclaredIn>UMSocialData.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UMSocialUrlResourceType resourceType</Declaration>
+			
+			
+			<Anchor>//api/name/resourceType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialUrlResource/resourceType</TokenIdentifier>
+			<Abstract type="html">资源类型，图片（UMSocialUrlResourceTypeImage）、视频（UMSocialUrlResourceTypeVideo），音乐（UMSocialUrlResourceTypeMusic）</Abstract>
+			<DeclaredIn>UMSocialData.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UMSocialUrlResourceType resourceType</Declaration>
+			
+			
+			<Anchor>//api/name/resourceType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialUrlResource/setTitle:</TokenIdentifier>
+			<Abstract type="html">如果传入音乐的话，腾讯微博可以指定音乐标题</Abstract>
+			<DeclaredIn>UMSocialData.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialUrlResource/title</TokenIdentifier>
+			<Abstract type="html">如果传入音乐的话，腾讯微博可以指定音乐标题</Abstract>
+			<DeclaredIn>UMSocialData.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialUrlResource/setAuthor:</TokenIdentifier>
+			<Abstract type="html">如果传入音乐的话，腾讯微博可以指定音乐作者</Abstract>
+			<DeclaredIn>UMSocialData.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *author</Declaration>
+			
+			
+			<Anchor>//api/name/author</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialUrlResource/author</TokenIdentifier>
+			<Abstract type="html">如果传入音乐的话，腾讯微博可以指定音乐作者</Abstract>
+			<DeclaredIn>UMSocialData.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *author</Declaration>
+			
+			
+			<Anchor>//api/name/author</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialUrlResource/initWithSnsResourceType:url:</TokenIdentifier>
+			<Abstract type="html">初始化对象，指定一种资源和资源URL</Abstract>
+			<DeclaredIn>UMSocialData.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithSnsResourceType:(UMSocialUrlResourceType)resourceType url:(NSString *)url</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>resourceType</Name>
+					<Abstract type="html">多媒体资源类型，图片、音乐或者视频</Abstract>
+				</Parameter><Parameter>
+					<Name>urlString</Name>
+					<Abstract type="html">url字符串</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithSnsResourceType:url:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

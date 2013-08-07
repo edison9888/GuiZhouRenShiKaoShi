@@ -1,0 +1,2 @@
+PODS_UMENGSOCIAL_LIBRARY_SEARCH_PATHS = $(PODS_ROOT)/UmengSocial/UMSocial_Sdk_All_2.1.3/UMSocial_Sdk_2.1.3/**
+PODS_UMENGSOCIAL_OTHER_LDFLAGS = -lUMSocial_Sdk_2.1.3 -lUMSocial_Sdk_Comment_2.1.3 -lWeChatSDK_armv7_armv7s -lz -framework MobileCoreServices -framework SystemConfiguration

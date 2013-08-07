@@ -1,0 +1,567 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>SIAlertView Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">SIAlertView 1.2 </a></h1>
+				<a id="developerHome" href="../index.html">Sumi Interactive</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">SIAlertView Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/_0">&nbsp;&nbsp;&nbsp;&nbsp;_0</option>
+	
+	<option value="//api/name/backgroundStyle">&nbsp;&nbsp;&nbsp;&nbsp;backgroundStyle</option>
+	
+	<option value="//api/name/didDismissHandler">&nbsp;&nbsp;&nbsp;&nbsp;didDismissHandler</option>
+	
+	<option value="//api/name/didShowHandler">&nbsp;&nbsp;&nbsp;&nbsp;didShowHandler</option>
+	
+	<option value="//api/name/message">&nbsp;&nbsp;&nbsp;&nbsp;message</option>
+	
+	<option value="//api/name/title">&nbsp;&nbsp;&nbsp;&nbsp;title</option>
+	
+	<option value="//api/name/transitionStyle">&nbsp;&nbsp;&nbsp;&nbsp;transitionStyle</option>
+	
+	<option value="//api/name/visible">&nbsp;&nbsp;&nbsp;&nbsp;visible</option>
+	
+	<option value="//api/name/willDismissHandler">&nbsp;&nbsp;&nbsp;&nbsp;willDismissHandler</option>
+	
+	<option value="//api/name/willShowHandler">&nbsp;&nbsp;&nbsp;&nbsp;willShowHandler</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addButtonWithTitle:type:handler:">&nbsp;&nbsp;&nbsp;&nbsp;- addButtonWithTitle:type:handler:</option>
+	
+	<option value="//api/name/dismissAnimated:">&nbsp;&nbsp;&nbsp;&nbsp;- dismissAnimated:</option>
+	
+	<option value="//api/name/initWithTitle:andMessage:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithTitle:andMessage:</option>
+	
+	<option value="//api/name/show">&nbsp;&nbsp;&nbsp;&nbsp;- show</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/_0">_0</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/backgroundStyle">backgroundStyle</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/didDismissHandler">didDismissHandler</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/didShowHandler">didShowHandler</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/message">message</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/title">title</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/transitionStyle">transitionStyle</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/visible">visible</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/willDismissHandler">willDismissHandler</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/willShowHandler">willShowHandler</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addButtonWithTitle:type:handler:">addButtonWithTitle:type:handler:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dismissAnimated:">dismissAnimated:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithTitle:andMessage:">initWithTitle:andMessage:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/show">show</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="SIAlertView Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">SIAlertView Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">UIView</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">SIAlertView.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/title">&nbsp;&nbsp;title</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/message">&nbsp;&nbsp;message</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/transitionStyle">&nbsp;&nbsp;transitionStyle</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/backgroundStyle">&nbsp;&nbsp;backgroundStyle</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/willShowHandler">&nbsp;&nbsp;willShowHandler</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/didShowHandler">&nbsp;&nbsp;didShowHandler</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/willDismissHandler">&nbsp;&nbsp;willDismissHandler</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/didDismissHandler">&nbsp;&nbsp;didDismissHandler</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/visible">&nbsp;&nbsp;visible</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/_0">&nbsp;&nbsp;_0</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithTitle:andMessage:">&ndash;&nbsp;initWithTitle:andMessage:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addButtonWithTitle:type:handler:">&ndash;&nbsp;addButtonWithTitle:type:handler:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/show">&ndash;&nbsp;show</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dismissAnimated:">&ndash;&nbsp;dismissAnimated:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/_0" title="_0"></a>
+	<h3 class="subsubtitle method-title">_0</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) UIColor *NS_AVAILABLE_IOS ( 5 _0</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/backgroundStyle" title="backgroundStyle"></a>
+	<h3 class="subsubtitle method-title">backgroundStyle</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) SIAlertViewBackgroundStyle backgroundStyle</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/didDismissHandler" title="didDismissHandler"></a>
+	<h3 class="subsubtitle method-title">didDismissHandler</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) SIAlertViewHandler didDismissHandler</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/didShowHandler" title="didShowHandler"></a>
+	<h3 class="subsubtitle method-title">didShowHandler</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) SIAlertViewHandler didShowHandler</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/message" title="message"></a>
+	<h3 class="subsubtitle method-title">message</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *message</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/title" title="title"></a>
+	<h3 class="subsubtitle method-title">title</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *title</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/transitionStyle" title="transitionStyle"></a>
+	<h3 class="subsubtitle method-title">transitionStyle</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) SIAlertViewTransitionStyle transitionStyle</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/visible" title="visible"></a>
+	<h3 class="subsubtitle method-title">visible</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, getter=isVisible) BOOL visible</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/willDismissHandler" title="willDismissHandler"></a>
+	<h3 class="subsubtitle method-title">willDismissHandler</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) SIAlertViewHandler willDismissHandler</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/willShowHandler" title="willShowHandler"></a>
+	<h3 class="subsubtitle method-title">willShowHandler</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) SIAlertViewHandler willShowHandler</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addButtonWithTitle:type:handler:" title="addButtonWithTitle:type:handler:"></a>
+	<h3 class="subsubtitle method-title">addButtonWithTitle:type:handler:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)addButtonWithTitle:(NSString *)<em>title</em> type:(SIAlertViewButtonType)<em>type</em> handler:(SIAlertViewHandler)<em>handler</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dismissAnimated:" title="dismissAnimated:"></a>
+	<h3 class="subsubtitle method-title">dismissAnimated:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)dismissAnimated:(BOOL)<em>animated</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithTitle:andMessage:" title="initWithTitle:andMessage:"></a>
+	<h3 class="subsubtitle method-title">initWithTitle:andMessage:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithTitle:(NSString *)<em>title</em> andMessage:(NSString *)<em>message</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/show" title="show"></a>
+	<h3 class="subsubtitle method-title">show</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)show</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Sumi Interactive. All rights reserved. (Last updated: 2013-07-11)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

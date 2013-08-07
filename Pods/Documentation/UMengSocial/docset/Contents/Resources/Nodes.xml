@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>UMengSocial 2.1.3</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						<NodeRef refid="9"/>
+						<NodeRef refid="10"/>
+						<NodeRef refid="11"/>
+						<NodeRef refid="12"/>
+						<NodeRef refid="13"/>
+						<NodeRef refid="14"/>
+						<NodeRef refid="15"/>
+						<NodeRef refid="16"/>
+						<NodeRef refid="17"/>
+						<NodeRef refid="18"/>
+						<NodeRef refid="19"/>
+						<NodeRef refid="20"/>
+						<NodeRef refid="21"/>
+						<NodeRef refid="22"/>
+						<NodeRef refid="23"/>
+						<NodeRef refid="24"/>
+						<NodeRef refid="25"/>
+						<NodeRef refid="26"/>
+						<NodeRef refid="27"/>
+						<NodeRef refid="28"/>
+						<NodeRef refid="29"/>
+						<NodeRef refid="30"/>
+						<NodeRef refid="31"/>
+						<NodeRef refid="32"/>
+						<NodeRef refid="33"/>
+						<NodeRef refid="34"/>
+						<NodeRef refid="35"/>
+						<NodeRef refid="36"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				
+				<Node type="folder">
+					<Name>Protocols</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="37"/>
+						<NodeRef refid="38"/>
+						<NodeRef refid="39"/>
+						<NodeRef refid="40"/>
+						<NodeRef refid="41"/>
+						
+					</Subnodes>
+				</Node>
+				
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1">
+			<Name>BaseReq</Name>
+			<Path>Classes/BaseReq.html</Path>
+		</Node>
+		<Node id="2">
+			<Name>BaseResp</Name>
+			<Path>Classes/BaseResp.html</Path>
+		</Node>
+		<Node id="3">
+			<Name>GetMessageFromWXReq</Name>
+			<Path>Classes/GetMessageFromWXReq.html</Path>
+		</Node>
+		<Node id="4">
+			<Name>GetMessageFromWXResp</Name>
+			<Path>Classes/GetMessageFromWXResp.html</Path>
+		</Node>
+		<Node id="5">
+			<Name>SendAuthReq</Name>
+			<Path>Classes/SendAuthReq.html</Path>
+		</Node>
+		<Node id="6">
+			<Name>SendAuthResp</Name>
+			<Path>Classes/SendAuthResp.html</Path>
+		</Node>
+		<Node id="7">
+			<Name>SendMessageToWXReq</Name>
+			<Path>Classes/SendMessageToWXReq.html</Path>
+		</Node>
+		<Node id="8">
+			<Name>SendMessageToWXResp</Name>
+			<Path>Classes/SendMessageToWXResp.html</Path>
+		</Node>
+		<Node id="9">
+			<Name>ShowMessageFromWXReq</Name>
+			<Path>Classes/ShowMessageFromWXReq.html</Path>
+		</Node>
+		<Node id="10">
+			<Name>ShowMessageFromWXResp</Name>
+			<Path>Classes/ShowMessageFromWXResp.html</Path>
+		</Node>
+		<Node id="11">
+			<Name>UMSocialAccountEntity</Name>
+			<Path>Classes/UMSocialAccountEntity.html</Path>
+		</Node>
+		<Node id="12">
+			<Name>UMSocialAccountManager</Name>
+			<Path>Classes/UMSocialAccountManager.html</Path>
+		</Node>
+		<Node id="13">
+			<Name>UMSocialBar</Name>
+			<Path>Classes/UMSocialBar.html</Path>
+		</Node>
+		<Node id="14">
+			<Name>UMSocialBarView</Name>
+			<Path>Classes/UMSocialBarView.html</Path>
+		</Node>
+		<Node id="15">
+			<Name>UMSocialConfig</Name>
+			<Path>Classes/UMSocialConfig.html</Path>
+		</Node>
+		<Node id="16">
+			<Name>UMSocialControllerService</Name>
+			<Path>Classes/UMSocialControllerService.html</Path>
+		</Node>
+		<Node id="17">
+			<Name>UMSocialControllerServiceComment</Name>
+			<Path>Classes/UMSocialControllerServiceComment.html</Path>
+		</Node>
+		<Node id="18">
+			<Name>UMSocialCustomAccount</Name>
+			<Path>Classes/UMSocialCustomAccount.html</Path>
+		</Node>
+		<Node id="19">
+			<Name>UMSocialData</Name>
+			<Path>Classes/UMSocialData.html</Path>
+		</Node>
+		<Node id="20">
+			<Name>UMSocialDataService</Name>
+			<Path>Classes/UMSocialDataService.html</Path>
+		</Node>
+		<Node id="21">
+			<Name>UMSocialExtConfig</Name>
+			<Path>Classes/UMSocialExtConfig.html</Path>
+		</Node>
+		<Node id="22">
+			<Name>UMSocialIconActionSheet</Name>
+			<Path>Classes/UMSocialIconActionSheet.html</Path>
+		</Node>
+		<Node id="23">
+			<Name>UMSocialResponseEntity</Name>
+			<Path>Classes/UMSocialResponseEntity.html</Path>
+		</Node>
+		<Node id="24">
+			<Name>UMSocialSnsPlatform</Name>
+			<Path>Classes/UMSocialSnsPlatform.html</Path>
+		</Node>
+		<Node id="25">
+			<Name>UMSocialSnsPlatformManager</Name>
+			<Path>Classes/UMSocialSnsPlatformManager.html</Path>
+		</Node>
+		<Node id="26">
+			<Name>UMSocialSnsService</Name>
+			<Path>Classes/UMSocialSnsService.html</Path>
+		</Node>
+		<Node id="27">
+			<Name>UMSocialUIHelper</Name>
+			<Path>Classes/UMSocialUIHelper.html</Path>
+		</Node>
+		<Node id="28">
+			<Name>UMSocialUrlResource</Name>
+			<Path>Classes/UMSocialUrlResource.html</Path>
+		</Node>
+		<Node id="29">
+			<Name>WXApi</Name>
+			<Path>Classes/WXApi.html</Path>
+		</Node>
+		<Node id="30">
+			<Name>WXAppExtendObject</Name>
+			<Path>Classes/WXAppExtendObject.html</Path>
+		</Node>
+		<Node id="31">
+			<Name>WXEmoticonObject</Name>
+			<Path>Classes/WXEmoticonObject.html</Path>
+		</Node>
+		<Node id="32">
+			<Name>WXImageObject</Name>
+			<Path>Classes/WXImageObject.html</Path>
+		</Node>
+		<Node id="33">
+			<Name>WXMediaMessage</Name>
+			<Path>Classes/WXMediaMessage.html</Path>
+		</Node>
+		<Node id="34">
+			<Name>WXMusicObject</Name>
+			<Path>Classes/WXMusicObject.html</Path>
+		</Node>
+		<Node id="35">
+			<Name>WXVideoObject</Name>
+			<Path>Classes/WXVideoObject.html</Path>
+		</Node>
+		<Node id="36">
+			<Name>WXWebpageObject</Name>
+			<Path>Classes/WXWebpageObject.html</Path>
+		</Node>
+		
+		
+		<Node id="37">
+			<Name>UMSocialBarActionDelegate</Name>
+			<Path>Protocols/UMSocialBarActionDelegate.html</Path>
+		</Node>
+		<Node id="38">
+			<Name>UMSocialBarDelegate</Name>
+			<Path>Protocols/UMSocialBarDelegate.html</Path>
+		</Node>
+		<Node id="39">
+			<Name>UMSocialDataDelegate</Name>
+			<Path>Protocols/UMSocialDataDelegate.html</Path>
+		</Node>
+		<Node id="40">
+			<Name>UMSocialUIDelegate</Name>
+			<Path>Protocols/UMSocialUIDelegate.html</Path>
+		</Node>
+		<Node id="41">
+			<Name>WXApiDelegate</Name>
+			<Path>Protocols/WXApiDelegate.html</Path>
+		</Node>
+		
+	</Library>
+</DocSetNodes>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GetMessageFromWXResp.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GetMessageFromWXResp</TokenIdentifier>
+			<Abstract type="html">微信终端向第三方程序请求提供内容，第三方程序向微信终端返回的消息结构体。
+
+微信终端向第三方程序请求提供内容，第三方程序调用sendResp向微信终端返回一个GetMessageFromWXResp消息结构体。</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GetMessageFromWXResp/setText:</TokenIdentifier>
+			<Abstract type="html">向微信终端提供的文本内容</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GetMessageFromWXResp/text</TokenIdentifier>
+			<Abstract type="html">向微信终端提供的文本内容</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) NSString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GetMessageFromWXResp/setMessage:</TokenIdentifier>
+			<Abstract type="html">向微信终端提供的多媒体内容。</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/WXMediaMessage</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) WXMediaMessage *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GetMessageFromWXResp/message</TokenIdentifier>
+			<Abstract type="html">向微信终端提供的多媒体内容。</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/WXMediaMessage</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) WXMediaMessage *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GetMessageFromWXResp/setBText:</TokenIdentifier>
+			<Abstract type="html">向微信终端提供内容的消息类型，包括文本消息和多媒体消息两种，两者只能选择其一，不能同时发送文本和多媒体消息</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL bText</Declaration>
+			
+			
+			<Anchor>//api/name/bText</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GetMessageFromWXResp/bText</TokenIdentifier>
+			<Abstract type="html">向微信终端提供内容的消息类型，包括文本消息和多媒体消息两种，两者只能选择其一，不能同时发送文本和多媒体消息</Abstract>
+			<DeclaredIn>WXApiObject.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) BOOL bText</Declaration>
+			
+			
+			<Anchor>//api/name/bText</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/UMSocialDataService.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/UMSocialDataService</TokenIdentifier>
+			<Abstract type="html">底层数据接口对象，用一个UMSocialData属性来获取分享数、评论数，设置分享内嵌文字等。</Abstract>
+			<DeclaredIn>UMSocialDataService.h</DeclaredIn>
+			
+			<NodeRef refid="20"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialDataService/setCompletion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UMSocialDataService.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) UMSocialDataServiceCompletion completion</Declaration>
+			
+			
+			<Anchor>//api/name/completion</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialDataService/completion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UMSocialDataService.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) UMSocialDataServiceCompletion completion</Declaration>
+			
+			
+			<Anchor>//api/name/completion</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialDataService/setSocialData:</TokenIdentifier>
+			<Abstract type="html">通过UMSocialData对象，可以设置分享文字、图片，并获取到分享数、微博账号等属性</Abstract>
+			<DeclaredIn>UMSocialDataService.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UMSocialData *socialData</Declaration>
+			
+			
+			<Anchor>//api/name/socialData</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialDataService/socialData</TokenIdentifier>
+			<Abstract type="html">通过UMSocialData对象，可以设置分享文字、图片，并获取到分享数、微博账号等属性</Abstract>
+			<DeclaredIn>UMSocialDataService.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, retain) UMSocialData *socialData</Declaration>
+			
+			
+			<Anchor>//api/name/socialData</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialDataService/setSocialDataDelegate:</TokenIdentifier>
+			<Abstract type="html">设置实现了UMSocialDataDelegate的对象</Abstract>
+			<DeclaredIn>UMSocialDataService.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) id&lt;UMSocialDataDelegate&gt; socialDataDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/socialDataDelegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UMSocialDataService/socialDataDelegate</TokenIdentifier>
+			<Abstract type="html">设置实现了UMSocialDataDelegate的对象</Abstract>
+			<DeclaredIn>UMSocialDataService.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) id&lt;UMSocialDataDelegate&gt; socialDataDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/socialDataDelegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UMSocialDataService/defaultDataService</TokenIdentifier>
+			<Abstract type="html">返回一个以[UMSocialData defaultData]来做初始化参数的UMSocialDataService对象</Abstract>
+			<DeclaredIn>UMSocialDataService.h</DeclaredIn>			
+			
+			<Declaration>+ (UMSocialDataService *)defaultDataService</Declaration>
+			
+			<ReturnValue><Abstract type="html">UMSocialDataService的默认初始化对象</Abstract></ReturnValue>
+			<Anchor>//api/name/defaultDataService</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialDataService/initWithUMSocialData:</TokenIdentifier>
+			<Abstract type="html">初始化一个UMSocialDataService对象</Abstract>
+			<DeclaredIn>UMSocialDataService.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithUMSocialData:(UMSocialData *)socialData</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>socialData</Name>
+					<Abstract type="html">一个UMSocialData对象</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">初始化对象</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithUMSocialData:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialDataService/setUMSocialDelegate:</TokenIdentifier>
+			<Abstract type="html">设置实现了UMSocialDataDelegate的对象， 如果在此视图设置了delegate，离开此视图的时候要设置为nil</Abstract>
+			<DeclaredIn>UMSocialDataService.h</DeclaredIn>			
+			
+			<Declaration>- (void)setUMSocialDelegate:(id&lt;UMSocialDataDelegate&gt;)delegate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>delegate</Name>
+					<Abstract type="html">实现了UMSocialDataDelegate的对象</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setUMSocialDelegate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialDataService/requestSocialDataWithCompletion:</TokenIdentifier>
+			<Abstract type="html">从服务器获取分享数、评论数、喜欢数等属性</Abstract>
+			<DeclaredIn>UMSocialDataService.h</DeclaredIn>			
+			
+			<Declaration>- (void)requestSocialDataWithCompletion:(UMSocialDataServiceCompletion)completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">获取到数据之后执行的block对象</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/requestSocialDataWithCompletion:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialDataService/postSNSWithType:content:image:location:completion:</TokenIdentifier>
+			<Abstract type="html">发送微博内容到微博平台</Abstract>
+			<DeclaredIn>UMSocialDataService.h</DeclaredIn>			
+			
+			<Declaration>- (void)postSNSWithType:(NSString *)platformType content:(NSString *)content image:(UIImage *)image location:(CLLocation *)location completion:(UMSocialDataServiceCompletion)completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>platformType</Name>
+					<Abstract type="html">分享到的平台名，在UMSocialEnum.h中定义好的字符串常量</Abstract>
+				</Parameter><Parameter>
+					<Name>content</Name>
+					<Abstract type="html">分享的文字内容</Abstract>
+				</Parameter><Parameter>
+					<Name>image</Name>
+					<Abstract type="html">分享的图片</Abstract>
+				</Parameter><Parameter>
+					<Name>location</Name>
+					<Abstract type="html">分享的地理位置信息</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">发送数据之后执行的block对象</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/postSNSWithType:content:image:location:completion:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialDataService/postSNSWithTypes:content:image:location:urlResource:completion:</TokenIdentifier>
+			<Abstract type="html">发送微博内容到多个微博平台</Abstract>
+			<DeclaredIn>UMSocialDataService.h</DeclaredIn>			
+			
+			<Declaration>- (void)postSNSWithTypes:(NSArray *)platformTypes content:(NSString *)content image:(UIImage *)image location:(CLLocation *)location urlResource:(UMSocialUrlResource *)urlResource completion:(UMSocialDataServiceCompletion)completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>platformTypes</Name>
+					<Abstract type="html">分享到的平台，数组的元素是UMSocialEnum.h定义的平台名的常量字符串，例如UMShareToSina，UMShareToTencent等。</Abstract>
+				</Parameter><Parameter>
+					<Name>content</Name>
+					<Abstract type="html">分享的文字内容</Abstract>
+				</Parameter><Parameter>
+					<Name>image</Name>
+					<Abstract type="html">分享的图片</Abstract>
+				</Parameter><Parameter>
+					<Name>location</Name>
+					<Abstract type="html">分享的地理位置信息</Abstract>
+				</Parameter><Parameter>
+					<Name>urlResource</Name>
+					<Abstract type="html">图片、音乐、视频等url资源</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">发送完成执行的block对象</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/postSNSWithTypes:content:image:location:urlResource:completion:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialDataService/postAddLikeOrCancelWithCompletion:</TokenIdentifier>
+			<Abstract type="html">如果当前UMSocialData没有喜欢的话，发送喜欢，否则取消喜欢</Abstract>
+			<DeclaredIn>UMSocialDataService.h</DeclaredIn>			
+			
+			<Declaration>- (void)postAddLikeOrCancelWithCompletion:(UMSocialDataServiceCompletion)completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">获取到数据之后执行的block对象</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/postAddLikeOrCancelWithCompletion:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialDataService/postCommentWithContent:completion:</TokenIdentifier>
+			<Abstract type="html">发送评论</Abstract>
+			<DeclaredIn>UMSocialDataService.h</DeclaredIn>			
+			
+			<Declaration>- (void)postCommentWithContent:(NSString *)content completion:(UMSocialDataServiceCompletion)completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>content</Name>
+					<Abstract type="html">评论的文字内容</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">获取到数据之后执行的block对象</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/postCommentWithContent:completion:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialDataService/postCommentWithContent:image:templateText:location:shareToSNSWithUsid:completion:</TokenIdentifier>
+			<Abstract type="html">发送评论</Abstract>
+			<DeclaredIn>UMSocialDataService.h</DeclaredIn>			
+			
+			<Declaration>- (void)postCommentWithContent:(NSString *)content image:(UIImage *)image templateText:(NSString *)templateText location:(CLLocation *)location shareToSNSWithUsid:(NSDictionary *)shareToSNS completion:(UMSocialDataServiceCompletion)completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>content</Name>
+					<Abstract type="html">评论的文字内容</Abstract>
+				</Parameter><Parameter>
+					<Name>image</Name>
+					<Abstract type="html">评论并发送到微博的图片</Abstract>
+				</Parameter><Parameter>
+					<Name>templateText</Name>
+					<Abstract type="html">评论并发送到微博跟在微博正文后面用//分隔的文字</Abstract>
+				</Parameter><Parameter>
+					<Name>location</Name>
+					<Abstract type="html">评论的地理位置信息</Abstract>
+				</Parameter><Parameter>
+					<Name>shareToSNS</Name>
+					<Abstract type="html">评论并分享到微博平台，key为微博名，定义在UMSocialEnum.h中的UMShareToSina等，值为相应的usid</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">获取到数据之后执行的block对象</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/postCommentWithContent:image:templateText:location:shareToSNSWithUsid:completion:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialDataService/requestCommentList:completion:</TokenIdentifier>
+			<Abstract type="html">获取评论</Abstract>
+			<DeclaredIn>UMSocialDataService.h</DeclaredIn>			
+			
+			<Declaration>- (void)requestCommentList:(long long)lastCommentTime completion:(UMSocialDataServiceCompletion)completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>lastCommentTime</Name>
+					<Abstract type="html">如果要获取最新的评论数，设置为-1，如果获取指定评论，传入评论在这之前的时间戳</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">获取到数据之后执行的block对象，此block对象的形参内带有请求的评论数据</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/requestCommentList:completion:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialDataService/requestSocialAccountWithCompletion:</TokenIdentifier>
+			<Abstract type="html">请求获取用户微博账号的数据，获取到的用户数据在回调函数获得，也可以通过已经保存在本地并且更新的socialData属性的soicalAccount属性来获得</Abstract>
+			<DeclaredIn>UMSocialDataService.h</DeclaredIn>			
+			
+			<Declaration>- (void)requestSocialAccountWithCompletion:(UMSocialDataServiceCompletion)completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">获取到数据之后执行的block对象，此block对象的形参带啊有请求的用户账号数据</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/requestSocialAccountWithCompletion:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialDataService/requestUnOauthWithType:completion:</TokenIdentifier>
+			<Abstract type="html">请求解除授权</Abstract>
+			<DeclaredIn>UMSocialDataService.h</DeclaredIn>			
+			
+			<Declaration>- (void)requestUnOauthWithType:(NSString *)platformType completion:(UMSocialDataServiceCompletion)completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>platformType</Name>
+					<Abstract type="html">要解除授权的微博平台</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">请求之后执行的block对象</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/requestUnOauthWithType:completion:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialDataService/requestBindToSnsWithType:completion:</TokenIdentifier>
+			<Abstract type="html">请求绑定账号</Abstract>
+			<DeclaredIn>UMSocialDataService.h</DeclaredIn>			
+			
+			<Declaration>- (void)requestBindToSnsWithType:(NSString *)platformType completion:(UMSocialDataServiceCompletion)completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>platformType</Name>
+					<Abstract type="html">要绑定账号的微博平台</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">请求之后执行的block对象</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/requestBindToSnsWithType:completion:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialDataService/requestUnBindToSnsWithCompletion:</TokenIdentifier>
+			<Abstract type="html">请求解除绑定账号</Abstract>
+			<DeclaredIn>UMSocialDataService.h</DeclaredIn>			
+			
+			<Declaration>- (void)requestUnBindToSnsWithCompletion:(UMSocialDataServiceCompletion)completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">请求之后执行的block对象</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/requestUnBindToSnsWithCompletion:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialDataService/requestSnsInformation:completion:</TokenIdentifier>
+			<Abstract type="html">请求获取用户微博账号的详细数据,获取返回数据和其他方法一样，在UMSocialDataDelegate对象，数据部分是data属性，为NSDictionary类型</Abstract>
+			<DeclaredIn>UMSocialDataService.h</DeclaredIn>			
+			
+			<Declaration>- (void)requestSnsInformation:(NSString *)platformType completion:(UMSocialDataServiceCompletion)completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>platformType</Name>
+					<Abstract type="html">要获取微博信息的微博平台</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">请求之后执行的block对象</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/requestSnsInformation:completion:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialDataService/requestSnsFriends:completion:</TokenIdentifier>
+			<Abstract type="html">请求获取用户微博账号的朋友列表,获取返回数据和其他方法一样，在UMSocialDataDelegate对象，数据部分是data属性，为NSDictionary类型</Abstract>
+			<DeclaredIn>UMSocialDataService.h</DeclaredIn>			
+			
+			<Declaration>- (void)requestSnsFriends:(NSString *)platformType completion:(UMSocialDataServiceCompletion)completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>platformType</Name>
+					<Abstract type="html">要获取微博信息的微博平台</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">请求之后执行的block对象,block对象的形参内带有请求的好友数据</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/requestSnsFriends:completion:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialDataService/requestAddFollow:followedUsid:completion:</TokenIdentifier>
+			<Abstract type="html">请求添加关注</Abstract>
+			<DeclaredIn>UMSocialDataService.h</DeclaredIn>			
+			
+			<Declaration>- (void)requestAddFollow:(NSString *)platformType followedUsid:(NSArray *)usids completion:(UMSocialDataServiceCompletion)completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>platformType</Name>
+					<Abstract type="html">要添加关注的微博平台，目前添加关注功能只支持新浪微博和腾讯微博</Abstract>
+				</Parameter><Parameter>
+					<Name>usids</Name>
+					<Abstract type="html">被关注的usid号</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">请求之后执行的block对象</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/requestAddFollow:followedUsid:completion:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UMSocialDataService/cancelAllRequestInQueue</TokenIdentifier>
+			<Abstract type="html">每个post和request方法都会把请求放到一个队列上，取消队列所有请求
+  </Abstract>
+			<DeclaredIn>UMSocialDataService.h</DeclaredIn>			
+			
+			<Declaration>- (void)cancelAllRequestInQueue</Declaration>
+			
+			
+			<Anchor>//api/name/cancelAllRequestInQueue</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/UMSocialBarActionDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/UMSocialBarActionDelegate</TokenIdentifier>
+			<Abstract type="html">操作栏主题颜色</Abstract>
+			<DeclaredIn>UMSocialBar.h</DeclaredIn>
+			
+			<NodeRef refid="37"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UMSocialBarActionDelegate/likeButtonTouched</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UMSocialBar.h</DeclaredIn>			
+			
+			<Declaration>- (void)likeButtonTouched</Declaration>
+			
+			
+			<Anchor>//api/name/likeButtonTouched</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UMSocialBarActionDelegate/commentButtonTouched</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UMSocialBar.h</DeclaredIn>			
+			
+			<Declaration>- (void)commentButtonTouched</Declaration>
+			
+			
+			<Anchor>//api/name/commentButtonTouched</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UMSocialBarActionDelegate/shareButtonTouched</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UMSocialBar.h</DeclaredIn>			
+			
+			<Declaration>- (void)shareButtonTouched</Declaration>
+			
+			
+			<Anchor>//api/name/shareButtonTouched</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UMSocialBarActionDelegate/accountButtonTouched</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UMSocialBar.h</DeclaredIn>			
+			
+			<Declaration>- (void)accountButtonTouched</Declaration>
+			
+			
+			<Anchor>//api/name/accountButtonTouched</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

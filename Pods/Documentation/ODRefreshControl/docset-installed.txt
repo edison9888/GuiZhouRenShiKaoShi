@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/lt/Library/Developer/Shared/Documentation/DocSets/org.cocoapods.odrefreshcontrol.ODRefreshControl-1.1.0.docset
+Time: 2013-07-11 05:29:57 +0000

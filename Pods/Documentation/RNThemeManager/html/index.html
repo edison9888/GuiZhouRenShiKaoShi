@@ -1,0 +1,307 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>RNThemeManager 0.1.0 Reference</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="index.html">RNThemeManager 0.1.0 </a></h1>
+				<a id="developerHome" href="index.html">Ryan Nystrom</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">RNThemeManager 0.1.0 Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<div id="overview_contents" role="main">
+				<div class="main-navigation navigation-top">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">RNThemeManager 0.1.0 Reference</h1>
+					</div>		
+				</div>
+				<div id="container">
+					
+					<div class="section section-overview index-overview">
+						
+						
+						<h1><a href="Classes/RNThemeManager.html">RNThemeManager</a></h1>
+
+<p>This small utility makes theming your iOS apps clean and simple. It was originally created so that I could have themable NIBs that utilized notifications to update view properties such as fonts and colors. I pushed beyond NIB support so that however you create your views, it will respond to your themes.</p>
+
+<p>I also wanted to create a library that could be used by people that aren&rsquo;t app developers, i.e. designers. As long as someone has Xcode installed, they can easily make edits to your theme Plists without slowing down the development process.</p>
+
+<h2>Installation</h2>
+
+<h4>Cocoapods</h4>
+
+<p><strong>Version 0.1</strong></p>
+
+<p><del>The preferred method of installation is with <a href="http://cocoapods.org">Cocoapods</a>.</del> The project is being submitted to the pods repo as we speak. I will update the readme as soon as its ready.</p>
+
+<p>If you do not wish to use Cocoapods (and you really should), you can manually install <a href="Classes/RNThemeManager.html">RNThemeManager</a> by just dragging and dropping all of the source files into your project. There are no framework dependencies.</p>
+
+<h2>Setup</h2>
+
+<p>The only required setup is that you create a Plist file named <code>default.plist</code>. The root of this file should be a dictionary. Each key represents the name of an attribute. Values should be either the name of a font, the size of a font, or a hex color code.</p>
+
+<h2>Fonts</h2>
+
+<p>View a list, and examples, of fonts included with iOS 6 <a href="http://iosfonts.com">here</a>.</p>
+
+<p>You can include custom fonts in your project and use them in your themes just as you would with a system font. For instructions on importing custom fonts see this <a href="http://stackoverflow.com/a/2616101/940936">Stackoverflow answer</a>.</p>
+
+<h4>Font Sizes</h4>
+
+<p><a href="Classes/RNThemeManager.html">RNThemeManager</a> automatically builds your font and size based on the keyword for the font. Each font name must be accompanied by a font size key that is the <strong>font name suffixed with &ldquo;Size&rdquo;</strong>. For example:</p>
+
+<p><code>objective-c
+headerFont : ArialRoundedMTBold
+headerFontSize : 24
+</code></p>
+
+<p>Then when assigning a font key to a label (or any other view with text), the size will be automatically assigned.</p>
+
+<p><code>objective-c
+- (UIFont *)fontForKey:(NSString*)key;
+</code></p>
+
+<h2>Colors</h2>
+
+<p>Colors are fairly simple. Just use a hexidecimal color code for the key value. There is no need to prefix with <code>#</code>.</p>
+
+<p><code>objective-c
+- (UIImage *)imageForKey:(NSString *)key;
+</code></p>
+
+<h2>Images</h2>
+
+<p>Just like <code>[UIImage imageNamed:@&ldquo;name&rdquo;]</code>, simply assign the image name of your asset as the value for an image key.</p>
+
+<p><code>objective-c
+- (UIImage *)imageForKey:(NSString *)key;
+</code></p>
+
+<h2>Inheriting theme values</h2>
+
+<p>If you would like to use a single value as multiple keys you may, just set the value of a key to another key.</p>
+
+<p><code>
+headerFont : Helvetica
+headerFontSize : 20
+backgroundColor : ffffff
+redColor : d81417
+headerColor : backgroundColor
+headerButtonColor : headerColor
+cellHeaderFontSize : headerFontSize
+buttonBackgroundColor : redColor
+// etc
+</code></p>
+
+<h2>Theming with NIBs</h2>
+
+<p>There are three steps to applying themes within NIBs. All of this is done in the Identity Inspector (⌥ ⌘ 3).</p>
+
+<ol>
+<li>Class a view as a respective <code>RNTheme<em></code> subclass. You can subclass any of the <code>RNTheme</em></code> classes as well.</li>
+<li>Setup keyPath keys that match the <code>RNTheme*</code> subclass.</li>
+<li>Set the values to said keyPaths to the keys you defined in your theme plists.</li>
+</ol>
+
+
+<p>Sorry if that&rsquo;s a little confusing. Here are some pictures.</p>
+
+<h4>default.plist</h4>
+
+<p><img src="[https://raw.github.com/rnystrom/RNThemeManager/master/images/plist.png](https://raw.github.com/rnystrom/RNThemeManager/master/images/plist.png)" /></p>
+
+<h4><a href="Classes/RNThemeButton.html">RNThemeButton</a>.h</h4>
+
+<p>``` objective-c
+@interface <a href="Classes/RNThemeButton.html">RNThemeButton</a> : UIButton
+<a href="Protocols/RNThemeUpdateProtocol.html">RNThemeUpdateProtocol</a></p>
+
+<p>// available theme keys
+@property (nonatomic, strong) NSString <em>backgroundImageKey;
+@property (nonatomic, strong) NSString </em>backgroundColorKey;
+@property (nonatomic, strong) NSString <em>fontKey;
+@property (nonatomic, strong) NSString </em>textColorKey;
+@property (nonatomic, strong) NSString *highlightedTextColorKey;</p>
+
+<p>@end
+```</p>
+
+<h4>MainStoryboard.storyboard</h4>
+
+<p><img src="[https://raw.github.com/rnystrom/RNThemeManager/master/images/keypaths.png](https://raw.github.com/rnystrom/RNThemeManager/master/images/keypaths.png)" /></p>
+
+<h2>Theming with Code</h2>
+
+<p>``` objective-c
+// in -viewDidLoad (remember to removeObserver in -dealloc)
+[[NSNotificationCenter defaultCenter] addObserver:self action:@selector(applyTheme) withObject:nil];</p>
+
+<p>// in -viewWillAppear (or where you do your layout bits)
+[self applyTheme];</p>
+
+<ul>
+<li><p>(void)applyTheme {
+  // these objects do <em>not</em> need to be RNTheme* classes/subclasses
+  self.view.backgroundColor = [[RNThemeManager sharedManager] colorForKey:@&ldquo;backgroundColor&rdquo;];
+  self.textField.font = [[RNThemeManager sharedManager] fontForKey:@&ldquo;textFieldFont&rdquo;];</p>
+
+<p>  // example of custom theming
+  self.textField.layer.cornerRadius = <a href="Classes/RNThemeManager.html#//api/name/sharedManager">[RNThemeManager sharedManager]</a>.styles[@&ldquo;cornerRadius&rdquo;].floatValue;
+}
+```</p></li>
+</ul>
+
+
+<p>Now whenever your theme file is changed the ViewController will automatically restyle your views based on your theme&rsquo;s setup.</p>
+
+<h2>Using Multiple Themes</h2>
+
+<p>To change the active theme, just call the following method:</p>
+
+<p><code>objective-c
+[[RNThemeManager sharedManager] changeTheme:@"lowcontrast"];
+</code></p>
+
+<p>Just make sure you have a plist with whatever theme name you provide.</p>
+
+<h2>Updating Views</h2>
+
+<p>All <code>RNTheme*</code> subclasses subscribe to notifications when a theme is changed and conform to a custom protocol (that only exists for semantics) called <code>RNThemeUpdateProtocol</code>.</p>
+
+<p>If you wish not to use any of the <code>RNTheme*</code> views (and you certainly do not need to), you can update your views or even view controllers by listening for the following notification:</p>
+
+<p><code>objective-c
+RNThemeManagerDidChangeThemes
+</code></p>
+
+<p>When that notification is sent, the theme file has been changed and all views that are styled with a theme should be updated. An example of <code>RNThemeTextField</code> shows you how I prefer to update my views:</p>
+
+<p>``` objective-c
+// Somewhere in an -init or -viewDidLoad
+// Make sure you remove the observer!
+[[NSNotificationCenter defaultCenter] addObserver:self</p>
+
+<pre><code>                                     selector:@selector(themeDidChangeNotification:) 
+                                         name:RNThemeManagerDidChangeThemes 
+                                       object:nil];
+</code></pre>
+
+<p>// &hellip;</p>
+
+<ul>
+<li>(void)themeDidChangeNotification:(NSNotification *)notification {
+  [self applyTheme];
+}</li>
+</ul>
+
+
+<p>// Note: This is the required method of the <a href="Protocols/RNThemeUpdateProtocol.html">RNThemeUpdateProtocol</a> protocol
+&ndash; (void)applyTheme {</p>
+
+<pre><code>UIFont *font = nil;
+if (self.fontKey &amp;&amp; (font = [[RNThemeManager sharedManager] fontForKey:self.fontKey])) {
+    self.font = font;
+}
+UIColor *textColor = nil;
+if (self.textColorKey &amp;&amp; (textColor = [[RNThemeManager sharedManager] colorForKey:self.textColorKey])) {
+    self.textColor = textColor;
+}
+</code></pre>
+
+<p>}
+```</p>
+
+<h2>Contact</h2>
+
+<ul>
+<li><a href="https://twitter.com/nystrorm">@nystrorm</a> on Twitter</li>
+<li><a href="https://github.com/rnystrom">@rnystrom</a> on Github</li>
+<li><a href="mailTo:rnystrom@whoisryannystrom.com">rnystrom [at] whoisryannystrom [dot] com</a></li>
+</ul>
+
+
+<h2>License</h2>
+
+<p><a href="Classes/RNThemeManager.html">RNThemeManager</a> is a work from Ryan Nystrom under the MIT license. See the <a href="https://github.com/rnystrom/RNThemeManager/blob/master/LICENSE">license doc</a> for details.</p>
+						
+						
+					</div>
+					
+                        
+                    
+					
+					
+					<div class="index-column">
+						<h2 class="index-title">Class References</h2>
+						<ul>
+							
+							<li><a href="Classes/RNThemeButton.html">RNThemeButton</a></li>
+							
+							<li><a href="Classes/RNThemeLabel.html">RNThemeLabel</a></li>
+							
+							<li><a href="Classes/RNThemeManager.html">RNThemeManager</a></li>
+							
+							<li><a href="Classes/RNThemeTextField.html">RNThemeTextField</a></li>
+							
+							<li><a href="Classes/RNThemeTextView.html">RNThemeTextView</a></li>
+							
+							<li><a href="Classes/RNThemeView.html">RNThemeView</a></li>
+							
+							<li><a href="Classes/RNThemedImageView.html">RNThemedImageView</a></li>
+							
+						</ul>
+					</div>
+					
+					
+						
+					<div class="index-column">
+						
+						<h2 class="index-title">Protocol References</h2>
+						<ul>
+							
+							<li><a href="Protocols/RNThemeUpdateProtocol.html">RNThemeUpdateProtocol</a></li>
+							
+						</ul>
+						
+						
+						<h2 class="index-title">Category References</h2>
+						<ul>
+							
+							<li><a href="Categories/UIColor+HexString.html">UIColor(HexString)</a></li>
+							
+						</ul>
+						
+					</div>
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Ryan Nystrom. All rights reserved. (Last updated: 2013-07-08)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+	
+					</div>
+				</div>
+			</div>
+		</article>		
+	</body>
+</html>
